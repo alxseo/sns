@@ -353,31 +353,78 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // --- Sfârșit Secțiune Calculator Metrici de Rankare ---
 
-    // --- Început Secțiune PageRank Universități (Placeholder) ---
-    const btnRuleazaPageRankDemoEl = document.getElementById('btnRuleazaPageRankDemo');
-    const listaQSOriginalDemoEl = document.getElementById('listaQSOriginalDemo');
-    const listaPageRankDemoEl = document.getElementById('listaPageRankDemo');
+// --- Început Secțiune PageRank Universități ---
+const btnRuleazaPageRankDemoEl = document.getElementById('btnRuleazaPageRankDemo');
+const listaQSOriginalDemoEl = document.getElementById('listaQSOriginalDemo');
+const listaPageRankDemoEl = document.getElementById('listaPageRankDemo');
+const grafPageRankContainerEl = document.getElementById('grafPageRankContainer'); // Adaugă acest div în HTML
 
-    if (btnRuleazaPageRankDemoEl) {
-        btnRuleazaPageRankDemoEl.addEventListener('click', () => {
-            alert("Funcționalitatea Demo PageRank Universități nu este încă implementată în detaliu.");
-            
-            // Exemplu de date placeholder
-            const demoQS = [
-                { nume: "Universitatea A (QS)", rank: 1, scor: 90 },
-                { nume: "Universitatea B (QS)", rank: 2, scor: 85 },
-                { nume: "Universitatea C (QS)", rank: 3, scor: 80 },
-            ];
-            const demoPageRank = [
-                { nume: "Universitatea B (PR)", rank: 1, scorPR: 0.35 },
-                { nume: "Universitatea A (PR)", rank: 2, scorPR: 0.33 },
-                { nume: "Universitatea C (PR)", rank: 3, scorPR: 0.32 },
-            ];
+// Date Demo (poți adăuga mai multe sau le poți modifica)
+// Presupunem că scorurile sunt deja normalizate între 0 și 1 pentru simplitate aici.
+// Într-o aplicație reală, ai face normalizarea.
+const universitatitDemoData = [
+    { id: 'U1', nume: 'Universitatea Alfa', qs_rank: 5, ifr: 0.8, isr: 0.7, irn: 0.9, sus: 0.6 },
+    { id: 'U2', nume: 'Universitatea Beta', qs_rank: 2, ifr: 0.9, isr: 0.85, irn: 0.7, sus: 0.75 },
+    { id: 'U3', nume: 'Universitatea Gamma', qs_rank: 8, ifr: 0.6, isr: 0.65, irn: 0.5, sus: 0.55 },
+    { id: 'U4', nume: 'Universitatea Delta', qs_rank: 3, ifr: 0.85, isr: 0.75, irn: 0.8, sus: 0.7 },
+    { id: 'U5', nume: 'Universitatea Epsilon', qs_rank: 1, ifr: 0.95, isr: 0.9, irn: 0.92, sus: 0.8 }
+];
 
-            if(listaQSOriginalDemoEl) listaQSOriginalDemoEl.innerHTML = demoQS.map(u => `<li>${u.rank}. ${u.nume} (Scor: ${u.scor})</li>`).join('');
-            if(listaPageRankDemoEl) listaPageRankDemoEl.innerHTML = demoPageRank.map(u => `<li>${u.rank}. ${u.nume} (PageRank: ${u.scorPR.toFixed(3)})</li>`).join('');
+function calculeazaScorCompozit(uni) {
+    // Media aritmetică simplă a scorurilor normalizate
+    return (uni.ifr + uni.isr + uni.irn + uni.sus) / 4;
+}
+
+// Funcție pentru construirea grafului de adiacență (cine votează pentru cine)
+function construiesteGraf(universitatiCuScor) {
+    const graf = {}; // Cheie: id_univ, Valoare: array de id_uri pentru care votează
+    universitatiCuScor.forEach(u1 => {
+        graf[u1.id] = { outLinks: [], pageRank: 1 / universitatiCuScor.length }; // Inițializare PageRank
+        universitatiCuScor.forEach(u2 => {
+            if (u1.id !== u2.id) {
+                // U1 votează pentru U2 dacă scorul U1 < scorul U2 (votare inversă)
+                if (u1.scorCompozit < u2.scorCompozit) {
+                    if (!graf[u1.id].outLinks.includes(u2.id)) {
+                        graf[u1.id].outLinks.push(u2.id);
+                    }
+                }
+            }
         });
+    });
+    return graf;
+}
+
+// Funcție pentru calculul PageRank iterativ
+function calculeazaPageRank(graf, universitatiIds, iteratii = 20, d = 0.85) {
+    const N = universitatiIds.length;
+    let pageRanks = {};
+    universitatiIds.forEach(id => pageRanks[id] = 1 / N); // Inițializare
+
+    for (let iter = 0; iter < iteratii; iter++) {
+        const newPageRanks = {};
+        let danglingSum = 0; // Suma PageRank-urilor nodurilor "dangling" (fără out-links)
+
+        universitatiIds.forEach(id => {
+            if (graf[id] && graf[id].outLinks.length === 0) {
+                danglingSum += pageRanks[id];
+            }
+        });
+
+        universitatiIds.forEach(pageId => {
+            let newRank = (1 - d) / N;
+            newRank += d * (danglingSum / N); // Distribuim PageRank-ul nodurilor dangling
+
+            universitatiIds.forEach(linkerId => {
+                if (graf[linkerId] && graf[linkerId].outLinks.includes(pageId)) {
+                    newRank += d * (pageRanks[linkerId] / graf[linkerId].outLinks.length);
+                }
+            });
+            newPageRanks[pageId] = newRank;
+        });
+        pageRanks = newPageRanks;
     }
+    return pageRanks;
+}
     // --- Sfârșit Secțiune PageRank Universități ---
     
 });
