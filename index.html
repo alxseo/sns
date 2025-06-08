@@ -1,60 +1,86 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Demo Algoritmi de Sortare</title>
-  <!-- Pico.css pentru stil minimalist -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
-  <style>
-    #vizualizareSortareContainer {
-      display: flex;
-      align-items: flex-end;
-      height: 200px;
-      gap: 4px;
-      margin-top: 1rem;
-    }
-    #vizualizareSortareContainer div {
-      flex: 1;
-      transition: height 0.3s, background-color 0.3s;
-      text-align: center;
-      color: white;
-      font-size: 0.8rem;
-      line-height: 1.2;
-    }
-  </style>
+  <title>AlgoRank Explorer</title>
+  <!-- stil personalizat -->
+  <link rel="stylesheet" href="style.css"/>
+  <!-- D3.js pentru grafice -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <main class="container">
-    <h1>Demo Algoritmi de Sortare</h1>
-    <article>
-      <header>
-        <h2>Vizualizator Sortare</h2>
-      </header>
-      <label for="inputListaSortare">Listează valori separate prin virgulă:</label>
+  <header>
+    <h1>AlgoRank Explorer</h1>
+    <nav>
+      <ul>
+        <li><a href="#sortare">Sortare</a></li>
+        <li><a href="#pagerank">PageRank</a></li>
+        <li><a href="#universitati">Universități (QS 2025)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Secțiunea Sortare -->
+    <section id="sortare">
+      <h2>Vizualizator Sortare</h2>
+
+      <label for="inputListaSortare">Listează valori (virgulă):</label>
       <input id="inputListaSortare" type="text" placeholder="ex: 5,3,8,1,2"/>
-      <label for="dimensiuneListaRandom">sau generează random (<code>n</code>):</label>
+
+      <label for="dimensiuneListaRandom">sau generează random (n):</label>
       <input id="dimensiuneListaRandom" type="number" min="2" max="50" value="10"/>
+
       <button id="btnGenereazaLista">Generează listă</button>
 
-      <label for="selectAlgoritmSortare">Alege algoritm:</label>
+      <label for="selectAlgoritmSortare">Algoritm:</label>
       <select id="selectAlgoritmSortare">
         <option value="bubble">Bubble Sort</option>
         <option value="quick">Quick Sort</option>
       </select>
       <button id="btnSorteaza">Pornește sortarea</button>
 
-      <div>
-        <strong>Pași:</strong> <span id="nrPasiSortare">0</span>,
-        <strong>Comparări:</strong> <span id="nrComparatiiSortare">0</span>,
-        <strong>Swap-uri:</strong> <span id="nrSwapuriSortare">0</span>
-      </div>
+      <p>
+        Pași: <span id="nrPasiSortare">0</span>,
+        Comparări: <span id="nrComparatiiSortare">0</span>,
+        Swap-uri: <span id="nrSwapuriSortare">0</span>
+      </p>
 
       <div id="vizualizareSortareContainer"></div>
-    </article>
+    </section>
+
+    <hr/>
+
+    <!-- Secțiunea PageRank -->
+    <section id="pagerank">
+      <h2>Demo Algoritm PageRank</h2>
+
+      <label for="inputGraph">Muchii (un `A,B` per linie):</label>
+      <textarea id="inputGraph" rows="6" placeholder="ex: A,B\nB,C\nC,A"></textarea>
+
+      <label for="inputDamp">Damping factor (0–1):</label>
+      <input id="inputDamp" type="number" min="0" max="1" step="0.05" value="0.85"/>
+
+      <label for="inputIter">It. (nr iterații):</label>
+      <input id="inputIter" type="number" min="1" value="10"/>
+
+      <button id="btnPRank">Calculează PageRank</button>
+
+      <div id="outputPRank"></div>
+    </section>
+
+    <hr/>
+
+    <!-- Secțiunea Studiu de Caz Universități -->
+    <section id="universitati">
+      <h2>Studiu de Caz: Universități (QS 2025)</h2>
+      <div id="chartQS"></div>
+    </section>
+
   </main>
 
-  <!-- script.js la sfârșit pentru încărcare mai rapidă -->
   <script src="script.js"></script>
 </body>
 </html>
