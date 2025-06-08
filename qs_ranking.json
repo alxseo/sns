@@ -1,0 +1,3602 @@
+[
+  {
+    "rank_raw": 1,
+    "university": "Massachusetts Institute of Technology (MIT) ",
+    "score": 100.0,
+    "rank": 1
+  },
+  {
+    "rank_raw": 2,
+    "university": "Imperial College London",
+    "score": 98.5,
+    "rank": 2
+  },
+  {
+    "rank_raw": 3,
+    "university": "University of Oxford",
+    "score": 96.9,
+    "rank": 3
+  },
+  {
+    "rank_raw": 4,
+    "university": "Harvard University",
+    "score": 96.8,
+    "rank": 4
+  },
+  {
+    "rank_raw": 5,
+    "university": "University of Cambridge",
+    "score": 96.7,
+    "rank": 5
+  },
+  {
+    "rank_raw": 6,
+    "university": "Stanford University",
+    "score": 96.1,
+    "rank": 6
+  },
+  {
+    "rank_raw": 7,
+    "university": "ETH Zurich - Swiss Federal Institute of Technology",
+    "score": 93.9,
+    "rank": 7
+  },
+  {
+    "rank_raw": 8,
+    "university": "National University of Singapore (NUS)",
+    "score": 93.7,
+    "rank": 8
+  },
+  {
+    "rank_raw": 9,
+    "university": "UCL",
+    "score": 91.6,
+    "rank": 9
+  },
+  {
+    "rank_raw": 10,
+    "university": "California Institute of Technology (Caltech)",
+    "score": 90.9,
+    "rank": 10
+  },
+  {
+    "rank_raw": 11,
+    "university": "University of Pennsylvania",
+    "score": 90.3,
+    "rank": 11
+  },
+  {
+    "rank_raw": 12,
+    "university": "University of California, Berkeley (UCB)",
+    "score": 90.1,
+    "rank": 12
+  },
+  {
+    "rank_raw": 13,
+    "university": "The University of Melbourne",
+    "score": 88.9,
+    "rank": 13
+  },
+  {
+    "rank_raw": 14,
+    "university": "Peking University",
+    "score": 88.5,
+    "rank": 14
+  },
+  {
+    "rank_raw": 15,
+    "university": "Nanyang Technological University, Singapore (NTU)",
+    "score": 88.4,
+    "rank": 15
+  },
+  {
+    "rank_raw": 16,
+    "university": "Cornell University",
+    "score": 87.9,
+    "rank": 16
+  },
+  {
+    "rank_raw": 17,
+    "university": "The University of Hong Kong",
+    "score": 87.6,
+    "rank": 17
+  },
+  {
+    "rank_raw": 18,
+    "university": "The University of Sydney",
+    "score": 87.3,
+    "rank": 18
+  },
+  {
+    "rank_raw": 19,
+    "university": "The University of New South Wales (UNSW Sydney)",
+    "score": 87.1,
+    "rank": 19
+  },
+  {
+    "rank_raw": 20,
+    "university": "Tsinghua University",
+    "score": 86.5,
+    "rank": 20
+  },
+  {
+    "rank_raw": 21,
+    "university": "University of Chicago",
+    "score": 86.2,
+    "rank": 21
+  },
+  {
+    "rank_raw": 22,
+    "university": "Princeton University",
+    "score": 85.5,
+    "rank": 22
+  },
+  {
+    "rank_raw": 23,
+    "university": "Yale University",
+    "score": 85.2,
+    "rank": 23
+  },
+  {
+    "rank_raw": 24,
+    "university": "Université PSL",
+    "score": 84.7,
+    "rank": 24
+  },
+  {
+    "rank_raw": 25,
+    "university": "University of Toronto",
+    "score": 84.1,
+    "rank": 25
+  },
+  {
+    "rank_raw": 26,
+    "university": "EPFL",
+    "score": 83.5,
+    "rank": 26
+  },
+  {
+    "rank_raw": 27,
+    "university": "The University of Edinburgh",
+    "score": 83.3,
+    "rank": 27
+  },
+  {
+    "rank_raw": 28,
+    "university": "Technical University of Munich",
+    "score": 83.2,
+    "rank": 28
+  },
+  {
+    "rank_raw": 29,
+    "university": "McGill University",
+    "score": 83.0,
+    "rank": 29
+  },
+  {
+    "rank_raw": 30,
+    "university": "The Australian National University",
+    "score": 82.4,
+    "rank": 30
+  },
+  {
+    "rank_raw": 31,
+    "university": "Seoul National University",
+    "score": 82.3,
+    "rank": 31
+  },
+  {
+    "rank_raw": 32,
+    "university": "Johns Hopkins University",
+    "score": 82.1,
+    "rank": 32
+  },
+  {
+    "rank_raw": 32,
+    "university": "The University of Tokyo",
+    "score": 82.1,
+    "rank": 32
+  },
+  {
+    "rank_raw": 34,
+    "university": "Columbia University",
+    "score": 82.0,
+    "rank": 34
+  },
+  {
+    "rank_raw": 34,
+    "university": "The University of Manchester",
+    "score": 82.0,
+    "rank": 34
+  },
+  {
+    "rank_raw": 36,
+    "university": "The Chinese University of Hong Kong (CUHK)",
+    "score": 81.3,
+    "rank": 36
+  },
+  {
+    "rank_raw": 37,
+    "university": "Monash University",
+    "score": 81.2,
+    "rank": 37
+  },
+  {
+    "rank_raw": 38,
+    "university": "University of British Columbia",
+    "score": 81.0,
+    "rank": 38
+  },
+  {
+    "rank_raw": 39,
+    "university": "Fudan University",
+    "score": 80.3,
+    "rank": 39
+  },
+  {
+    "rank_raw": 40,
+    "university": "King's College London",
+    "score": 80.2,
+    "rank": 40
+  },
+  {
+    "rank_raw": 40,
+    "university": "The University of Queensland",
+    "score": 80.2,
+    "rank": 40
+  },
+  {
+    "rank_raw": 42,
+    "university": "University of California, Los Angeles (UCLA)",
+    "score": 79.8,
+    "rank": 42
+  },
+  {
+    "rank_raw": 43,
+    "university": "New York University (NYU)",
+    "score": 79.6,
+    "rank": 43
+  },
+  {
+    "rank_raw": 44,
+    "university": "University of Michigan-Ann Arbor",
+    "score": 79.0,
+    "rank": 44
+  },
+  {
+    "rank_raw": 45,
+    "university": "Shanghai Jiao Tong University",
+    "score": 77.8,
+    "rank": 45
+  },
+  {
+    "rank_raw": 46,
+    "university": "Institut Polytechnique de Paris",
+    "score": 77.5,
+    "rank": 46
+  },
+  {
+    "rank_raw": 47,
+    "university": "The Hong Kong University of Science and Technology",
+    "score": 77.1,
+    "rank": 47
+  },
+  {
+    "rank_raw": 47,
+    "university": "Zhejiang University",
+    "score": 77.1,
+    "rank": 47
+  },
+  {
+    "rank_raw": 49,
+    "university": "Delft University of Technology",
+    "score": 77.0,
+    "rank": 49
+  },
+  {
+    "rank_raw": 50,
+    "university": "Kyoto University",
+    "score": 76.0,
+    "rank": 50
+  },
+  {
+    "rank_raw": 50,
+    "university": "Northwestern University",
+    "score": 76.0,
+    "rank": 50
+  },
+  {
+    "rank_raw": 50,
+    "university": "The London School of Economics and Political Science (LSE)",
+    "score": 76.0,
+    "rank": 50
+  },
+  {
+    "rank_raw": 53,
+    "university": "KAIST - Korea Advanced Institute of Science & Technology",
+    "score": 75.7,
+    "rank": 53
+  },
+  {
+    "rank_raw": 54,
+    "university": "University of Bristol",
+    "score": 75.4,
+    "rank": 54
+  },
+  {
+    "rank_raw": 55,
+    "university": "University of Amsterdam",
+    "score": 73.7,
+    "rank": 55
+  },
+  {
+    "rank_raw": 56,
+    "university": "Yonsei University",
+    "score": 72.9,
+    "rank": 56
+  },
+  {
+    "rank_raw": 57,
+    "university": "The Hong Kong Polytechnic University",
+    "score": 72.1,
+    "rank": 57
+  },
+  {
+    "rank_raw": 58,
+    "university": "Carnegie Mellon University",
+    "score": 72.0,
+    "rank": 58
+  },
+  {
+    "rank_raw": 59,
+    "university": "Ludwig-Maximilians-Universität München",
+    "score": 71.6,
+    "rank": 59
+  },
+  {
+    "rank_raw": 60,
+    "university": "Universiti Malaya (UM)",
+    "score": 71.2,
+    "rank": 60
+  },
+  {
+    "rank_raw": 61,
+    "university": "Duke University",
+    "score": 70.8,
+    "rank": 61
+  },
+  {
+    "rank_raw": 62,
+    "university": "City University of Hong Kong",
+    "score": 70.7,
+    "rank": 62
+  },
+  {
+    "rank_raw": 63,
+    "university": "KU Leuven",
+    "score": 70.3,
+    "rank": 63
+  },
+  {
+    "rank_raw": 63,
+    "university": "Sorbonne University",
+    "score": 70.3,
+    "rank": 63
+  },
+  {
+    "rank_raw": 65,
+    "university": "The University of Auckland",
+    "score": 69.7,
+    "rank": 65
+  },
+  {
+    "rank_raw": 66,
+    "university": "University of Texas at Austin",
+    "score": 69.5,
+    "rank": 66
+  },
+  {
+    "rank_raw": 67,
+    "university": "Korea University",
+    "score": 69.0,
+    "rank": 67
+  },
+  {
+    "rank_raw": 68,
+    "university": "National Taiwan University (NTU)",
+    "score": 68.7,
+    "rank": 68
+  },
+  {
+    "rank_raw": 69,
+    "university": "The University of Warwick",
+    "score": 68.2,
+    "rank": 69
+  },
+  {
+    "rank_raw": 69,
+    "university": "University of Illinois at Urbana-Champaign",
+    "score": 68.2,
+    "rank": 69
+  },
+  {
+    "rank_raw": 71,
+    "university": "Universidad de Buenos Aires (UBA)",
+    "score": 67.6,
+    "rank": 71
+  },
+  {
+    "rank_raw": 72,
+    "university": "University of California, San Diego (UCSD)",
+    "score": 67.1,
+    "rank": 72
+  },
+  {
+    "rank_raw": 73,
+    "university": "Université Paris-Saclay",
+    "score": 67.0,
+    "rank": 73
+  },
+  {
+    "rank_raw": 74,
+    "university": "KTH Royal Institute of Technology ",
+    "score": 65.7,
+    "rank": 74
+  },
+  {
+    "rank_raw": 75,
+    "university": "Lund University",
+    "score": 65.6,
+    "rank": 75
+  },
+  {
+    "rank_raw": 76,
+    "university": "University of Washington",
+    "score": 65.3,
+    "rank": 76
+  },
+  {
+    "rank_raw": 77,
+    "university": "The University of Western Australia",
+    "score": 65.2,
+    "rank": 77
+  },
+  {
+    "rank_raw": 78,
+    "university": "University of Glasgow",
+    "score": 65.0,
+    "rank": 78
+  },
+  {
+    "rank_raw": 79,
+    "university": "Brown University",
+    "score": 64.7,
+    "rank": 79
+  },
+  {
+    "rank_raw": 80,
+    "university": "University of Birmingham",
+    "score": 64.1,
+    "rank": 80
+  },
+  {
+    "rank_raw": 80,
+    "university": "University of Southampton",
+    "score": 64.1,
+    "rank": 80
+  },
+  {
+    "rank_raw": 82,
+    "university": "The University of Adelaide",
+    "score": 63.8,
+    "rank": 82
+  },
+  {
+    "rank_raw": 82,
+    "university": "University of Leeds",
+    "score": 63.8,
+    "rank": 82
+  },
+  {
+    "rank_raw": 84,
+    "university": "Ruprecht-Karls-Universität Heidelberg",
+    "score": 63.7,
+    "rank": 84
+  },
+  {
+    "rank_raw": 84,
+    "university": "Tokyo Institute of Technology (Tokyo Tech)",
+    "score": 63.7,
+    "rank": 84
+  },
+  {
+    "rank_raw": 86,
+    "university": "Osaka University",
+    "score": 63.5,
+    "rank": 86
+  },
+  {
+    "rank_raw": 87,
+    "university": "Trinity College Dublin, The University of Dublin",
+    "score": 62.9,
+    "rank": 87
+  },
+  {
+    "rank_raw": 88,
+    "university": "University of Technology Sydney",
+    "score": 62.4,
+    "rank": 88
+  },
+  {
+    "rank_raw": 89,
+    "university": "Durham University",
+    "score": 61.7,
+    "rank": 89
+  },
+  {
+    "rank_raw": 89,
+    "university": "Pennsylvania State University",
+    "score": 61.7,
+    "rank": 89
+  },
+  {
+    "rank_raw": 89,
+    "university": "Purdue University",
+    "score": 61.7,
+    "rank": 89
+  },
+  {
+    "rank_raw": 92,
+    "university": "Universidade de São Paulo",
+    "score": 61.6,
+    "rank": 92
+  },
+  {
+    "rank_raw": 93,
+    "university": "Pontificia Universidad Católica de Chile (UC)",
+    "score": 61.5,
+    "rank": 93
+  },
+  {
+    "rank_raw": 94,
+    "university": "Lomonosov Moscow State University",
+    "score": 61.4,
+    "rank": 94
+  },
+  {
+    "rank_raw": 94,
+    "university": "Universidad Nacional Autónoma de México (UNAM)",
+    "score": 61.4,
+    "rank": 94
+  },
+  {
+    "rank_raw": 96,
+    "university": "University of Alberta",
+    "score": 61.2,
+    "rank": 96
+  },
+  {
+    "rank_raw": 97,
+    "university": "Freie Universitaet Berlin",
+    "score": 60.6,
+    "rank": 97
+  },
+  {
+    "rank_raw": 98,
+    "university": "Pohang University of Science And Technology (POSTECH)",
+    "score": 60.3,
+    "rank": 98
+  },
+  {
+    "rank_raw": 99,
+    "university": "RWTH Aachen University",
+    "score": 59.9,
+    "rank": 99
+  },
+  {
+    "rank_raw": 100,
+    "university": "University of Copenhagen",
+    "score": 59.6,
+    "rank": 100
+  },
+  {
+    "rank_raw": 101,
+    "university": "King Fahd University of Petroleum & Minerals",
+    "score": 59.5,
+    "rank": 101
+  },
+  {
+    "rank_raw": 102,
+    "university": "KIT, Karlsruhe Institute of Technology",
+    "score": 59.4,
+    "rank": 102
+  },
+  {
+    "rank_raw": 103,
+    "university": "Uppsala University",
+    "score": 59.3,
+    "rank": 103
+  },
+  {
+    "rank_raw": 104,
+    "university": "University of St Andrews",
+    "score": 59.2,
+    "rank": 104
+  },
+  {
+    "rank_raw": 105,
+    "university": "The University of Sheffield",
+    "score": 59.1,
+    "rank": 105
+  },
+  {
+    "rank_raw": 105,
+    "university": "Utrecht University",
+    "score": 59.1,
+    "rank": 105
+  },
+  {
+    "rank_raw": 107,
+    "university": "Tohoku University",
+    "score": 58.8,
+    "rank": 107
+  },
+  {
+    "rank_raw": 108,
+    "university": "Boston University",
+    "score": 58.6,
+    "rank": 108
+  },
+  {
+    "rank_raw": 108,
+    "university": "University of Nottingham",
+    "score": 58.5,
+    "rank": 108
+  },
+  {
+    "rank_raw": 109,
+    "university": "Technical University of Denmark",
+    "score": 58.3,
+    "rank": 109
+  },
+  {
+    "rank_raw": 109,
+    "university": "University of Zurich",
+    "score": 58.3,
+    "rank": 109
+  },
+  {
+    "rank_raw": 111,
+    "university": "Politecnico di Milano",
+    "score": 58.2,
+    "rank": 111
+  },
+  {
+    "rank_raw": 113,
+    "university": "Aalto University",
+    "score": 57.9,
+    "rank": 113
+  },
+  {
+    "rank_raw": 114,
+    "university": "Georgia Institute of Technology",
+    "score": 57.3,
+    "rank": 114
+  },
+  {
+    "rank_raw": 115,
+    "university": "University of Waterloo",
+    "score": 57.2,
+    "rank": 115
+  },
+  {
+    "rank_raw": 116,
+    "university": "University of Wisconsin-Madison",
+    "score": 57.1,
+    "rank": 116
+  },
+  {
+    "rank_raw": 117,
+    "university": "University of Helsinki",
+    "score": 56.8,
+    "rank": 117
+  },
+  {
+    "rank_raw": 118,
+    "university": "Indian Institute of Technology Bombay (IITB)",
+    "score": 56.3,
+    "rank": 118
+  },
+  {
+    "rank_raw": 119,
+    "university": "University of Oslo",
+    "score": 56.1,
+    "rank": 119
+  },
+  {
+    "rank_raw": 120,
+    "university": "Queen Mary University of London",
+    "score": 55.8,
+    "rank": 120
+  },
+  {
+    "rank_raw": 120,
+    "university": "Western University",
+    "score": 55.8,
+    "rank": 120
+  },
+  {
+    "rank_raw": 122,
+    "university": "Qatar University",
+    "score": 55.7,
+    "rank": 122
+  },
+  {
+    "rank_raw": 123,
+    "university": "RMIT University",
+    "score": 55.5,
+    "rank": 123
+  },
+  {
+    "rank_raw": 123,
+    "university": "Sungkyunkwan University(SKKU)",
+    "score": 55.5,
+    "rank": 123
+  },
+  {
+    "rank_raw": 125,
+    "university": "University of Southern California",
+    "score": 55.2,
+    "rank": 125
+  },
+  {
+    "rank_raw": 126,
+    "university": "Humboldt-Universität zu Berlin",
+    "score": 55.0,
+    "rank": 126
+  },
+  {
+    "rank_raw": 126,
+    "university": "University College Dublin",
+    "score": 55.0,
+    "rank": 126
+  },
+  {
+    "rank_raw": 128,
+    "university": "Stockholm University",
+    "score": 54.8,
+    "rank": 128
+  },
+  {
+    "rank_raw": 129,
+    "university": "Newcastle University",
+    "score": 54.5,
+    "rank": 129
+  },
+  {
+    "rank_raw": 130,
+    "university": "University of California, Davis",
+    "score": 54.4,
+    "rank": 130
+  },
+  {
+    "rank_raw": 131,
+    "university": "University of Basel",
+    "score": 54.3,
+    "rank": 131
+  },
+  {
+    "rank_raw": 132,
+    "university": "Sapienza University of Rome",
+    "score": 54.2,
+    "rank": 132
+  },
+  {
+    "rank_raw": 133,
+    "university": "Alma Mater Studiorum - University of Bologna",
+    "score": 54.1,
+    "rank": 133
+  },
+  {
+    "rank_raw": 133,
+    "university": "Macquarie University",
+    "score": 54.1,
+    "rank": 133
+  },
+  {
+    "rank_raw": 133,
+    "university": "University of Science and Technology of China",
+    "score": 54.1,
+    "rank": 133
+  },
+  {
+    "rank_raw": 136,
+    "university": "Eindhoven University of Technology",
+    "score": 54.0,
+    "rank": 136
+  },
+  {
+    "rank_raw": 137,
+    "university": "University of Vienna",
+    "score": 53.9,
+    "rank": 137
+  },
+  {
+    "rank_raw": 138,
+    "university": "Universiti Kebangsaan Malaysia (UKM)",
+    "score": 53.8,
+    "rank": 138
+  },
+  {
+    "rank_raw": 139,
+    "university": "Chalmers University of Technology",
+    "score": 53.7,
+    "rank": 139
+  },
+  {
+    "rank_raw": 139,
+    "university": "Universidad de Chile",
+    "score": 53.7,
+    "rank": 139
+  },
+  {
+    "rank_raw": 141,
+    "university": "Lancaster University",
+    "score": 53.6,
+    "rank": 141
+  },
+  {
+    "rank_raw": 141,
+    "university": "Leiden University",
+    "score": 53.6,
+    "rank": 141
+  },
+  {
+    "rank_raw": 141,
+    "university": "Rice University",
+    "score": 53.6,
+    "rank": 141
+  },
+  {
+    "rank_raw": 144,
+    "university": "Aarhus University",
+    "score": 53.3,
+    "rank": 144
+  },
+  {
+    "rank_raw": 145,
+    "university": "Nanjing University",
+    "score": 53.0,
+    "rank": 145
+  },
+  {
+    "rank_raw": 146,
+    "university": "Universiti Sains Malaysia (USM)",
+    "score": 52.7,
+    "rank": 146
+  },
+  {
+    "rank_raw": 147,
+    "university": "Technische Universität Berlin (TU Berlin)",
+    "score": 52.5,
+    "rank": 147
+  },
+  {
+    "rank_raw": 148,
+    "university": "Universiti Putra Malaysia (UPM)",
+    "score": 52.3,
+    "rank": 148
+  },
+  {
+    "rank_raw": 149,
+    "university": "King Abdulaziz University (KAU)",
+    "score": 52.2,
+    "rank": 149
+  },
+  {
+    "rank_raw": 150,
+    "university": "Indian Institute of Technology Delhi (IITD)",
+    "score": 52.1,
+    "rank": 150
+  },
+  {
+    "rank_raw": 150,
+    "university": "University of Bath",
+    "score": 52.1,
+    "rank": 150
+  },
+  {
+    "rank_raw": 152,
+    "university": "Michigan State University",
+    "score": 51.9,
+    "rank": 152
+  },
+  {
+    "rank_raw": 152,
+    "university": "Nagoya University",
+    "score": 51.9,
+    "rank": 152
+  },
+  {
+    "rank_raw": 154,
+    "university": "Texas A&M University",
+    "score": 51.8,
+    "rank": 154
+  },
+  {
+    "rank_raw": 155,
+    "university": "University of Geneva",
+    "score": 51.6,
+    "rank": 155
+  },
+  {
+    "rank_raw": 155,
+    "university": "University of North Carolina, Chapel Hill",
+    "score": 51.6,
+    "rank": 155
+  },
+  {
+    "rank_raw": 155,
+    "university": "Wageningen University & Research",
+    "score": 51.6,
+    "rank": 155
+  },
+  {
+    "rank_raw": 158,
+    "university": "Erasmus University Rotterdam ",
+    "score": 51.5,
+    "rank": 158
+  },
+  {
+    "rank_raw": 159,
+    "university": "Université de Montréal ",
+    "score": 51.3,
+    "rank": 159
+  },
+  {
+    "rank_raw": 159,
+    "university": "University of Groningen",
+    "score": 51.3,
+    "rank": 159
+  },
+  {
+    "rank_raw": 161,
+    "university": "University of Bern",
+    "score": 51.2,
+    "rank": 161
+  },
+  {
+    "rank_raw": 162,
+    "university": "Hanyang University",
+    "score": 51.1,
+    "rank": 162
+  },
+  {
+    "rank_raw": 163,
+    "university": "Al-Farabi Kazakh National University",
+    "score": 51.0,
+    "rank": 163
+  },
+  {
+    "rank_raw": 164,
+    "university": "Complutense University of Madrid",
+    "score": 50.9,
+    "rank": 164
+  },
+  {
+    "rank_raw": 165,
+    "university": "Universitat de Barcelona",
+    "score": 50.7,
+    "rank": 165
+  },
+  {
+    "rank_raw": 165,
+    "university": "University of Liverpool",
+    "score": 50.7,
+    "rank": 165
+  },
+  {
+    "rank_raw": 167,
+    "university": "Kyushu University",
+    "score": 50.3,
+    "rank": 167
+  },
+  {
+    "rank_raw": 167,
+    "university": "University of Wollongong",
+    "score": 50.3,
+    "rank": 167
+  },
+  {
+    "rank_raw": 169,
+    "university": "Ghent University",
+    "score": 50.1,
+    "rank": 169
+  },
+  {
+    "rank_raw": 169,
+    "university": "The University of Exeter",
+    "score": 50.1,
+    "rank": 169
+  },
+  {
+    "rank_raw": 171,
+    "university": "University of Cape Town",
+    "score": 50.0,
+    "rank": 171
+  },
+  {
+    "rank_raw": 171,
+    "university": "Washington University in St. Louis",
+    "score": 49.9,
+    "rank": 171
+  },
+  {
+    "rank_raw": 172,
+    "university": "University of Reading",
+    "score": 49.9,
+    "rank": 172
+  },
+  {
+    "rank_raw": 173,
+    "university": "Hokkaido University",
+    "score": 49.8,
+    "rank": 173
+  },
+  {
+    "rank_raw": 174,
+    "university": "Curtin University",
+    "score": 49.3,
+    "rank": 174
+  },
+  {
+    "rank_raw": 175,
+    "university": "Universitat Autònoma de Barcelona",
+    "score": 49.2,
+    "rank": 175
+  },
+  {
+    "rank_raw": 176,
+    "university": "McMaster University",
+    "score": 49.0,
+    "rank": 176
+  },
+  {
+    "rank_raw": 178,
+    "university": "University of California, Santa Barbara (UCSB)",
+    "score": 48.9,
+    "rank": 178
+  },
+  {
+    "rank_raw": 179,
+    "university": "The University of Newcastle, Australia (UON)",
+    "score": 48.7,
+    "rank": 179
+  },
+  {
+    "rank_raw": 179,
+    "university": "Universidad de los Andes",
+    "score": 48.7,
+    "rank": 179
+  },
+  {
+    "rank_raw": 181,
+    "university": "Universiti Teknologi Malaysia ",
+    "score": 48.5,
+    "rank": 181
+  },
+  {
+    "rank_raw": 181,
+    "university": "Waseda University",
+    "score": 48.5,
+    "rank": 181
+  },
+  {
+    "rank_raw": 183,
+    "university": "Hamad Bin Khalifa University",
+    "score": 48.3,
+    "rank": 183
+  },
+  {
+    "rank_raw": 184,
+    "university": "University of York",
+    "score": 48.2,
+    "rank": 184
+  },
+  {
+    "rank_raw": 185,
+    "university": "Tecnológico de Monterrey",
+    "score": 48.1,
+    "rank": 185
+  },
+  {
+    "rank_raw": 186,
+    "university": "Cardiff University",
+    "score": 47.6,
+    "rank": 186
+  },
+  {
+    "rank_raw": 187,
+    "university": "École Normale Supérieure de Lyon",
+    "score": 47.5,
+    "rank": 187
+  },
+  {
+    "rank_raw": 188,
+    "university": "Keio University",
+    "score": 47.4,
+    "rank": 188
+  },
+  {
+    "rank_raw": 189,
+    "university": "University of Ottawa",
+    "score": 47.3,
+    "rank": 189
+  },
+  {
+    "rank_raw": 190,
+    "university": "Technische Universität Wien",
+    "score": 47.2,
+    "rank": 190
+  },
+  {
+    "rank_raw": 191,
+    "university": "Universität Hamburg",
+    "score": 47.1,
+    "rank": 191
+  },
+  {
+    "rank_raw": 192,
+    "university": "Tongji University",
+    "score": 46.9,
+    "rank": 192
+  },
+  {
+    "rank_raw": 193,
+    "university": "Queen's University at Kingston",
+    "score": 46.8,
+    "rank": 193
+  },
+  {
+    "rank_raw": 194,
+    "university": "University of Gothenburg",
+    "score": 46.7,
+    "rank": 194
+  },
+  {
+    "rank_raw": 194,
+    "university": "Wuhan University",
+    "score": 46.7,
+    "rank": 194
+  },
+  {
+    "rank_raw": 196,
+    "university": "Emory University",
+    "score": 46.6,
+    "rank": 196
+  },
+  {
+    "rank_raw": 197,
+    "university": "Deakin University",
+    "score": 46.4,
+    "rank": 197
+  },
+  {
+    "rank_raw": 198,
+    "university": "Universidad Autónoma de Madrid",
+    "score": 46.3,
+    "rank": 198
+  },
+  {
+    "rank_raw": 198,
+    "university": "University of Calgary",
+    "score": 46.3,
+    "rank": 198
+  },
+  {
+    "rank_raw": 200,
+    "university": "Arizona State University",
+    "score": 46.2,
+    "rank": 200
+  },
+  {
+    "rank_raw": 200,
+    "university": "King Saud University",
+    "score": 46.2,
+    "rank": 200
+  },
+  {
+    "rank_raw": 202,
+    "university": "Khalifa University of Science and Technology",
+    "score": 46.1,
+    "rank": 202
+  },
+  {
+    "rank_raw": 203,
+    "university": "Université catholique de Louvain (UCLouvain)",
+    "score": 46.0,
+    "rank": 203
+  },
+  {
+    "rank_raw": 203,
+    "university": "University of Minnesota Twin Cities",
+    "score": 46.0,
+    "rank": 203
+  },
+  {
+    "rank_raw": 205,
+    "university": "Ecole des Ponts ParisTech",
+    "score": 45.8,
+    "rank": 205
+  },
+  {
+    "rank_raw": 206,
+    "university": "Queen's University Belfast",
+    "score": 45.7,
+    "rank": 206
+  },
+  {
+    "rank_raw": 206,
+    "university": "Universitas Indonesia",
+    "score": 45.7,
+    "rank": 206
+  },
+  {
+    "rank_raw": 208,
+    "university": "The Ohio State University",
+    "score": 45.6,
+    "rank": 208
+  },
+  {
+    "rank_raw": 209,
+    "university": "Tel Aviv University",
+    "score": 45.2,
+    "rank": 209
+  },
+  {
+    "rank_raw": 210,
+    "university": "National Tsing Hua University",
+    "score": 45.1,
+    "rank": 210
+  },
+  {
+    "rank_raw": 211,
+    "university": "Indian Institute of Science",
+    "score": 45.0,
+    "rank": 211
+  },
+  {
+    "rank_raw": 212,
+    "university": "Albert-Ludwigs-Universitaet Freiburg",
+    "score": 44.8,
+    "rank": 212
+  },
+  {
+    "rank_raw": 213,
+    "university": "Queensland University of Technology (QUT)",
+    "score": 44.7,
+    "rank": 213
+  },
+  {
+    "rank_raw": 214,
+    "university": "University of Otago",
+    "score": 44.4,
+    "rank": 214
+  },
+  {
+    "rank_raw": 215,
+    "university": "National Cheng Kung University (NCKU)",
+    "score": 44.2,
+    "rank": 215
+  },
+  {
+    "rank_raw": 215,
+    "university": "University of Florida",
+    "score": 44.2,
+    "rank": 215
+  },
+  {
+    "rank_raw": 217,
+    "university": "La Trobe University",
+    "score": 44.1,
+    "rank": 217
+  },
+  {
+    "rank_raw": 218,
+    "university": "University of Maryland, College Park",
+    "score": 44.0,
+    "rank": 218
+  },
+  {
+    "rank_raw": 219,
+    "university": "National Yang Ming Chiao Tung University",
+    "score": 43.9,
+    "rank": 219
+  },
+  {
+    "rank_raw": 219,
+    "university": "Universidad Nacional de Colombia",
+    "score": 43.9,
+    "rank": 219
+  },
+  {
+    "rank_raw": 221,
+    "university": "Vrije Universiteit Amsterdam",
+    "score": 43.8,
+    "rank": 221
+  },
+  {
+    "rank_raw": 222,
+    "university": "Eberhard Karls Universität Tübingen",
+    "score": 43.7,
+    "rank": 222
+  },
+  {
+    "rank_raw": 222,
+    "university": "Indian Institute of Technology Kharagpur (IIT-KGP)",
+    "score": 43.7,
+    "rank": 222
+  },
+  {
+    "rank_raw": 224,
+    "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "score": 43.6,
+    "rank": 224
+  },
+  {
+    "rank_raw": 224,
+    "university": "Loughborough University",
+    "score": 43.6,
+    "rank": 224
+  },
+  {
+    "rank_raw": 224,
+    "university": "University of Lausanne",
+    "score": 43.6,
+    "rank": 224
+  },
+  {
+    "rank_raw": 227,
+    "university": "Indian Institute of Technology Madras (IITM)",
+    "score": 43.5,
+    "rank": 227
+  },
+  {
+    "rank_raw": 227,
+    "university": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+    "score": 43.5,
+    "rank": 227
+  },
+  {
+    "rank_raw": 229,
+    "university": "Chulalongkorn University",
+    "score": 43.4,
+    "rank": 229
+  },
+  {
+    "rank_raw": 230,
+    "university": "Maastricht University ",
+    "score": 43.0,
+    "rank": 230
+  },
+  {
+    "rank_raw": 230,
+    "university": "Universite libre de Bruxelles",
+    "score": 43.0,
+    "rank": 230
+  },
+  {
+    "rank_raw": 232,
+    "university": "Universidade Estadual de Campinas (Unicamp)",
+    "score": 42.9,
+    "rank": 232
+  },
+  {
+    "rank_raw": 233,
+    "university": "University of Twente",
+    "score": 42.7,
+    "rank": 233
+  },
+  {
+    "rank_raw": 234,
+    "university": "Technische Universität Dresden",
+    "score": 42.6,
+    "rank": 234
+  },
+  {
+    "rank_raw": 235,
+    "university": "University of Waikato",
+    "score": 42.5,
+    "rank": 235
+  },
+  {
+    "rank_raw": 236,
+    "university": "Università di Padova",
+    "score": 42.3,
+    "rank": 236
+  },
+  {
+    "rank_raw": 236,
+    "university": "University of Aberdeen",
+    "score": 42.3,
+    "rank": 236
+  },
+  {
+    "rank_raw": 236,
+    "university": "University of Rochester",
+    "score": 42.3,
+    "rank": 236
+  },
+  {
+    "rank_raw": 239,
+    "university": "Gadjah Mada University",
+    "score": 41.8,
+    "rank": 239
+  },
+  {
+    "rank_raw": 239,
+    "university": "Massey University",
+    "score": 41.8,
+    "rank": 239
+  },
+  {
+    "rank_raw": 241,
+    "university": "Politecnico di Torino",
+    "score": 41.7,
+    "rank": 241
+  },
+  {
+    "rank_raw": 241,
+    "university": "Technical University of Darmstadt",
+    "score": 41.7,
+    "rank": 241
+  },
+  {
+    "rank_raw": 243,
+    "university": "Dartmouth College",
+    "score": 41.3,
+    "rank": 243
+  },
+  {
+    "rank_raw": 244,
+    "university": "Victoria University of Wellington",
+    "score": 41.2,
+    "rank": 244
+  },
+  {
+    "rank_raw": 245,
+    "university": "University of Macau",
+    "score": 41.1,
+    "rank": 245
+  },
+  {
+    "rank_raw": 246,
+    "university": "Charles University",
+    "score": 41.0,
+    "rank": 246
+  },
+  {
+    "rank_raw": 246,
+    "university": "University of Sussex",
+    "score": 41.0,
+    "rank": 246
+  },
+  {
+    "rank_raw": 248,
+    "university": "Vanderbilt University",
+    "score": 40.8,
+    "rank": 248
+  },
+  {
+    "rank_raw": 249,
+    "university": "University of Navarra",
+    "score": 40.7,
+    "rank": 249
+  },
+  {
+    "rank_raw": 250,
+    "university": "American University of Beirut (AUB)",
+    "score": 40.6,
+    "rank": 250
+  },
+  {
+    "rank_raw": 251,
+    "university": "Taylor's University",
+    "score": 40.5,
+    "rank": 251
+  },
+  {
+    "rank_raw": 252,
+    "university": "Harbin Institute of Technology",
+    "score": 40.3,
+    "rank": 252
+  },
+  {
+    "rank_raw": 252,
+    "university": "Hong Kong Baptist University",
+    "score": 40.3,
+    "rank": 252
+  },
+  {
+    "rank_raw": 252,
+    "university": "University of Göttingen",
+    "score": 40.3,
+    "rank": 252
+  },
+  {
+    "rank_raw": 255,
+    "university": "Griffith University",
+    "score": 40.1,
+    "rank": 255
+  },
+  {
+    "rank_raw": 256,
+    "university": "Bandung Institute of Technology (ITB)",
+    "score": 39.9,
+    "rank": 256
+  },
+  {
+    "rank_raw": 256,
+    "university": "Heriot-Watt University",
+    "score": 39.9,
+    "rank": 256
+  },
+  {
+    "rank_raw": 258,
+    "university": "University of Warsaw ",
+    "score": 39.8,
+    "rank": 258
+  },
+  {
+    "rank_raw": 259,
+    "university": "Case Western Reserve University",
+    "score": 39.7,
+    "rank": 259
+  },
+  {
+    "rank_raw": 260,
+    "university": "University of Lisbon ",
+    "score": 39.6,
+    "rank": 260
+  },
+  {
+    "rank_raw": 261,
+    "university": "United Arab Emirates University",
+    "score": 39.4,
+    "rank": 261
+  },
+  {
+    "rank_raw": 261,
+    "university": "University of Canterbury | Te Whare Wānanga o Waitaha",
+    "score": 39.4,
+    "rank": 261
+  },
+  {
+    "rank_raw": 263,
+    "university": "Indian Institute of Technology Kanpur (IITK)",
+    "score": 39.3,
+    "rank": 263
+  },
+  {
+    "rank_raw": 264,
+    "university": "Norwegian University of Science And Technology",
+    "score": 39.1,
+    "rank": 264
+  },
+  {
+    "rank_raw": 265,
+    "university": "UCSI University",
+    "score": 38.8,
+    "rank": 265
+  },
+  {
+    "rank_raw": 265,
+    "university": "Universitat Pompeu Fabra (Barcelona)",
+    "score": 38.8,
+    "rank": 265
+  },
+  {
+    "rank_raw": 267,
+    "university": "University of Antwerp",
+    "score": 38.7,
+    "rank": 267
+  },
+  {
+    "rank_raw": 267,
+    "university": "University of Witwatersrand",
+    "score": 38.7,
+    "rank": 267
+  },
+  {
+    "rank_raw": 269,
+    "university": "Tianjin University",
+    "score": 38.6,
+    "rank": 269
+  },
+  {
+    "rank_raw": 269,
+    "university": "Universiti Teknologi PETRONAS (UTP)",
+    "score": 38.6,
+    "rank": 269
+  },
+  {
+    "rank_raw": 271,
+    "university": "Beijing Normal University ",
+    "score": 38.5,
+    "rank": 271
+  },
+  {
+    "rank_raw": 272,
+    "university": "Radboud University ",
+    "score": 38.4,
+    "rank": 272
+  },
+  {
+    "rank_raw": 273,
+    "university": "University College Cork",
+    "score": 38.3,
+    "rank": 273
+  },
+  {
+    "rank_raw": 273,
+    "university": "University of Galway",
+    "score": 38.3,
+    "rank": 273
+  },
+  {
+    "rank_raw": 275,
+    "university": "Dalhousie University",
+    "score": 38.2,
+    "rank": 275
+  },
+  {
+    "rank_raw": 275,
+    "university": "University of Massachusetts Amherst",
+    "score": 38.2,
+    "rank": 275
+  },
+  {
+    "rank_raw": 275,
+    "university": "University of Pittsburgh",
+    "score": 38.2,
+    "rank": 275
+  },
+  {
+    "rank_raw": 278,
+    "university": "University of Porto",
+    "score": 38.1,
+    "rank": 278
+  },
+  {
+    "rank_raw": 278,
+    "university": "Vrije Universiteit Brussel (VUB)",
+    "score": 38.1,
+    "rank": 278
+  },
+  {
+    "rank_raw": 280,
+    "university": "Ulsan National Institute of Science and Technology (UNIST)",
+    "score": 38.0,
+    "rank": 280
+  },
+  {
+    "rank_raw": 281,
+    "university": "The Hebrew University of Jerusalem",
+    "score": 37.9,
+    "rank": 281
+  },
+  {
+    "rank_raw": 281,
+    "university": "University of Strathclyde",
+    "score": 37.9,
+    "rank": 281
+  },
+  {
+    "rank_raw": 283,
+    "university": "Université Paris 1 Panthéon-Sorbonne ",
+    "score": 37.5,
+    "rank": 283
+  },
+  {
+    "rank_raw": 284,
+    "university": "Southern University of Science and Technology",
+    "score": 37.3,
+    "rank": 284
+  },
+  {
+    "rank_raw": 285,
+    "university": "Middle East Technical University",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 285,
+    "university": "Universidad Carlos III de Madrid (UC3M)",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 285,
+    "university": "University of Cologne",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 285,
+    "university": "University of Leicester",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 285,
+    "university": "University of Milan",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 285,
+    "university": "University of Surrey",
+    "score": 37.2,
+    "rank": 285
+  },
+  {
+    "rank_raw": 291,
+    "university": "Swinburne University of Technology",
+    "score": 37.1,
+    "rank": 291
+  },
+  {
+    "rank_raw": 291,
+    "university": "University of Bergen",
+    "score": 37.1,
+    "rank": 291
+  },
+  {
+    "rank_raw": 293,
+    "university": "The University of Arizona",
+    "score": 37.0,
+    "rank": 293
+  },
+  {
+    "rank_raw": 293,
+    "university": "University of Tasmania",
+    "score": 37.0,
+    "rank": 293
+  },
+  {
+    "rank_raw": 295,
+    "university": "Xi’an Jiaotong University",
+    "score": 36.9,
+    "rank": 295
+  },
+  {
+    "rank_raw": 296,
+    "university": "Stellenbosch University",
+    "score": 36.7,
+    "rank": 296
+  },
+  {
+    "rank_raw": 297,
+    "university": "University of Virginia",
+    "score": 36.6,
+    "rank": 297
+  },
+  {
+    "rank_raw": 298,
+    "university": "Bauman Moscow State Technical University",
+    "score": 36.5,
+    "rank": 298
+  },
+  {
+    "rank_raw": 298,
+    "university": "Swansea University",
+    "score": 36.5,
+    "rank": 298
+  },
+  {
+    "rank_raw": 300,
+    "university": "Huazhong University of Science and Technology",
+    "score": 36.4,
+    "rank": 300
+  },
+  {
+    "rank_raw": 301,
+    "university": "Georgetown University",
+    "score": 36.3,
+    "rank": 301
+  },
+  {
+    "rank_raw": 302,
+    "university": "Beijing Institute of Technology",
+    "score": 35.9,
+    "rank": 302
+  },
+  {
+    "rank_raw": 302,
+    "university": "Université Paris Cité",
+    "score": 35.9,
+    "rank": 302
+  },
+  {
+    "rank_raw": 304,
+    "university": "Linköping University",
+    "score": 35.8,
+    "rank": 304
+  },
+  {
+    "rank_raw": 304,
+    "university": "Universidade Federal do Rio de Janeiro",
+    "score": 35.8,
+    "rank": 304
+  },
+  {
+    "rank_raw": 306,
+    "university": "Aalborg University",
+    "score": 35.7,
+    "rank": 306
+  },
+  {
+    "rank_raw": 307,
+    "university": "University of California, Irvine",
+    "score": 35.5,
+    "rank": 307
+  },
+  {
+    "rank_raw": 308,
+    "university": "Airlangga University",
+    "score": 35.3,
+    "rank": 308
+  },
+  {
+    "rank_raw": 309,
+    "university": "Goethe-University Frankfurt am Main",
+    "score": 35.2,
+    "rank": 309
+  },
+  {
+    "rank_raw": 309,
+    "university": "Universität Innsbruck",
+    "score": 35.2,
+    "rank": 309
+  },
+  {
+    "rank_raw": 311,
+    "university": "North Carolina State University",
+    "score": 35.1,
+    "rank": 311
+  },
+  {
+    "rank_raw": 312,
+    "university": "Jagiellonian University",
+    "score": 35.0,
+    "rank": 312
+  },
+  {
+    "rank_raw": 312,
+    "university": "University of Johannesburg",
+    "score": 35.0,
+    "rank": 312
+  },
+  {
+    "rank_raw": 314,
+    "university": "Universität Stuttgart",
+    "score": 34.9,
+    "rank": 314
+  },
+  {
+    "rank_raw": 315,
+    "university": "Quaid-i-Azam University",
+    "score": 34.8,
+    "rank": 315
+  },
+  {
+    "rank_raw": 316,
+    "university": "RUDN University",
+    "score": 34.7,
+    "rank": 316
+  },
+  {
+    "rank_raw": 316,
+    "university": "Shandong University",
+    "score": 34.7,
+    "rank": 316
+  },
+  {
+    "rank_raw": 316,
+    "university": "University of Notre Dame",
+    "score": 34.7,
+    "rank": 316
+  },
+  {
+    "rank_raw": 319,
+    "university": "Simon Fraser University",
+    "score": 34.6,
+    "rank": 319
+  },
+  {
+    "rank_raw": 320,
+    "university": "University of Colorado Boulder",
+    "score": 34.4,
+    "rank": 320
+  },
+  {
+    "rank_raw": 321,
+    "university": "L.N. Gumilyov Eurasian National University (ENU)",
+    "score": 34.2,
+    "rank": 321
+  },
+  {
+    "rank_raw": 321,
+    "university": "National Technical University of Athens",
+    "score": 34.2,
+    "rank": 321
+  },
+  {
+    "rank_raw": 321,
+    "university": "Universidad Politécnica de Madrid (UPM)",
+    "score": 34.2,
+    "rank": 321
+  },
+  {
+    "rank_raw": 324,
+    "university": "University of Miami",
+    "score": 34.1,
+    "rank": 324
+  },
+  {
+    "rank_raw": 324,
+    "university": "University of Southern Denmark (SDU)",
+    "score": 34.1,
+    "rank": 324
+  },
+  {
+    "rank_raw": 326,
+    "university": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+    "score": 34.0,
+    "rank": 326
+  },
+  {
+    "rank_raw": 326,
+    "university": "Istanbul Technical University",
+    "score": 34.0,
+    "rank": 326
+  },
+  {
+    "rank_raw": 328,
+    "university": "Kyung Hee University",
+    "score": 33.8,
+    "rank": 328
+  },
+  {
+    "rank_raw": 328,
+    "university": "Rutgers University–New Brunswick",
+    "score": 33.8,
+    "rank": 328
+  },
+  {
+    "rank_raw": 328,
+    "university": "University of Delhi",
+    "score": 33.8,
+    "rank": 328
+  },
+  {
+    "rank_raw": 331,
+    "university": "Sun Yat-sen University",
+    "score": 33.7,
+    "rank": 331
+  },
+  {
+    "rank_raw": 332,
+    "university": "American University of Sharjah",
+    "score": 33.6,
+    "rank": 332
+  },
+  {
+    "rank_raw": 332,
+    "university": "University of East Anglia (UEA)",
+    "score": 33.6,
+    "rank": 332
+  },
+  {
+    "rank_raw": 334,
+    "university": "Université Grenoble Alpes",
+    "score": 33.5,
+    "rank": 334
+  },
+  {
+    "rank_raw": 335,
+    "university": "Indian Institute of Technology Roorkee (IITR)",
+    "score": 33.4,
+    "rank": 335
+  },
+  {
+    "rank_raw": 336,
+    "university": "Flinders University",
+    "score": 33.3,
+    "rank": 336
+  },
+  {
+    "rank_raw": 336,
+    "university": "Lappeenranta-Lahti University of Technology LUT",
+    "score": 33.3,
+    "rank": 336
+  },
+  {
+    "rank_raw": 336,
+    "university": "Sichuan University",
+    "score": 33.3,
+    "rank": 336
+  },
+  {
+    "rank_raw": 336,
+    "university": "University of the Philippines",
+    "score": 33.3,
+    "rank": 336
+  },
+  {
+    "rank_raw": 340,
+    "university": "University of Saskatchewan",
+    "score": 33.2,
+    "rank": 340
+  },
+  {
+    "rank_raw": 340,
+    "university": "University of South Australia",
+    "score": 33.2,
+    "rank": 340
+  },
+  {
+    "rank_raw": 342,
+    "university": "Brunel University London",
+    "score": 33.0,
+    "rank": 342
+  },
+  {
+    "rank_raw": 342,
+    "university": "Sharif University of Technology",
+    "score": 33.0,
+    "rank": 342
+  },
+  {
+    "rank_raw": 344,
+    "university": "Indian Institute of Technology Guwahati (IITG)",
+    "score": 32.9,
+    "rank": 344
+  },
+  {
+    "rank_raw": 344,
+    "university": "Tufts University",
+    "score": 32.9,
+    "rank": 344
+  },
+  {
+    "rank_raw": 344,
+    "university": "University of Oulu",
+    "score": 32.9,
+    "rank": 344
+  },
+  {
+    "rank_raw": 347,
+    "university": "Tilburg University",
+    "score": 32.8,
+    "rank": 347
+  },
+  {
+    "rank_raw": 347,
+    "university": "University of Naples - Federico II",
+    "score": 32.8,
+    "rank": 347
+  },
+  {
+    "rank_raw": 349,
+    "university": "University of Victoria (UVic)",
+    "score": 32.6,
+    "rank": 349
+  },
+  {
+    "rank_raw": 350,
+    "university": "Cairo University",
+    "score": 32.5,
+    "rank": 350
+  },
+  {
+    "rank_raw": 350,
+    "university": "Sciences Po ",
+    "score": 32.5,
+    "rank": 350
+  },
+  {
+    "rank_raw": 352,
+    "university": "City, University of London",
+    "score": 32.4,
+    "rank": 352
+  },
+  {
+    "rank_raw": 353,
+    "university": "National University of Sciences And Technology (NUST) Islamabad",
+    "score": 32.3,
+    "rank": 353
+  },
+  {
+    "rank_raw": 354,
+    "university": "University of Pretoria",
+    "score": 32.2,
+    "rank": 354
+  },
+  {
+    "rank_raw": 355,
+    "university": "Indiana University Bloomington",
+    "score": 32.1,
+    "rank": 355
+  },
+  {
+    "rank_raw": 355,
+    "university": "University of Coimbra",
+    "score": 32.1,
+    "rank": 355
+  },
+  {
+    "rank_raw": 355,
+    "university": "University of Luxembourg",
+    "score": 32.1,
+    "rank": 355
+  },
+  {
+    "rank_raw": 358,
+    "university": "University of Tartu",
+    "score": 32.0,
+    "rank": 358
+  },
+  {
+    "rank_raw": 359,
+    "university": "Gwangju Institute of Science and Technology (GIST)",
+    "score": 31.9,
+    "rank": 359
+  },
+  {
+    "rank_raw": 359,
+    "university": "Pontificia Universidad Católica del Perú",
+    "score": 31.9,
+    "rank": 359
+  },
+  {
+    "rank_raw": 359,
+    "university": "University of Aveiro",
+    "score": 31.9,
+    "rank": 359
+  },
+  {
+    "rank_raw": 362,
+    "university": "Sultan Qaboos University",
+    "score": 31.7,
+    "rank": 362
+  },
+  {
+    "rank_raw": 362,
+    "university": "Xiamen University",
+    "score": 31.7,
+    "rank": 362
+  },
+  {
+    "rank_raw": 362,
+    "university": "York University",
+    "score": 31.7,
+    "rank": 362
+  },
+  {
+    "rank_raw": 365,
+    "university": "Saint Petersburg State University",
+    "score": 31.6,
+    "rank": 365
+  },
+  {
+    "rank_raw": 365,
+    "university": "University of Illinois at Chicago (UIC)",
+    "score": 31.6,
+    "rank": 365
+  },
+  {
+    "rank_raw": 367,
+    "university": "Westfälische Wilhelms-Universität Münster ",
+    "score": 31.5,
+    "rank": 367
+  },
+  {
+    "rank_raw": 368,
+    "university": "Mahidol University",
+    "score": 31.4,
+    "rank": 368
+  },
+  {
+    "rank_raw": 368,
+    "university": "University of Jordan",
+    "score": 31.4,
+    "rank": 368
+  },
+  {
+    "rank_raw": 368,
+    "university": "University of Tehran",
+    "score": 31.4,
+    "rank": 368
+  },
+  {
+    "rank_raw": 371,
+    "university": "George Washington University",
+    "score": 31.3,
+    "rank": 371
+  },
+  {
+    "rank_raw": 371,
+    "university": "Lincoln University ",
+    "score": 31.3,
+    "rank": 371
+  },
+  {
+    "rank_raw": 371,
+    "university": "Universitat Politècnica de Catalunya · BarcelonaTech (UPC)",
+    "score": 31.3,
+    "rank": 371
+  },
+  {
+    "rank_raw": 371,
+    "university": "University of Turin",
+    "score": 31.3,
+    "rank": 371
+  },
+  {
+    "rank_raw": 375,
+    "university": "University of Florence",
+    "score": 31.2,
+    "rank": 375
+  },
+  {
+    "rank_raw": 375,
+    "university": "University of Turku",
+    "score": 31.2,
+    "rank": 375
+  },
+  {
+    "rank_raw": 377,
+    "university": "Nankai University",
+    "score": 31.1,
+    "rank": 377
+  },
+  {
+    "rank_raw": 377,
+    "university": "Pontificia Universidad Javeriana",
+    "score": 31.1,
+    "rank": 377
+  },
+  {
+    "rank_raw": 377,
+    "university": "University of Tsukuba",
+    "score": 31.1,
+    "rank": 377
+  },
+  {
+    "rank_raw": 380,
+    "university": "Technische Universität Bergakademie Freiberg",
+    "score": 30.8,
+    "rank": 380
+  },
+  {
+    "rank_raw": 380,
+    "university": "University of Kent",
+    "score": 30.8,
+    "rank": 380
+  },
+  {
+    "rank_raw": 382,
+    "university": "University of Pisa",
+    "score": 30.7,
+    "rank": 382
+  },
+  {
+    "rank_raw": 383,
+    "university": "Anna University",
+    "score": 30.6,
+    "rank": 383
+  },
+  {
+    "rank_raw": 384,
+    "university": " Western Sydney University",
+    "score": 30.5,
+    "rank": 384
+  },
+  {
+    "rank_raw": 385,
+    "university": "South China University of Technology",
+    "score": 30.4,
+    "rank": 385
+  },
+  {
+    "rank_raw": 385,
+    "university": "Universiti Brunei Darussalam (UBD)",
+    "score": 30.4,
+    "rank": 385
+  },
+  {
+    "rank_raw": 387,
+    "university": "Belarusian State University",
+    "score": 30.3,
+    "rank": 387
+  },
+  {
+    "rank_raw": 388,
+    "university": "Universidade Nova de Lisboa",
+    "score": 30.2,
+    "rank": 388
+  },
+  {
+    "rank_raw": 389,
+    "university": "Università Vita-Salute San Raffaele",
+    "score": 30.1,
+    "rank": 389
+  },
+  {
+    "rank_raw": 389,
+    "university": "University of Cyprus (UCY)",
+    "score": 30.1,
+    "rank": 389
+  },
+  {
+    "rank_raw": 389,
+    "university": "Virginia Polytechnic Institute and State University",
+    "score": 30.1,
+    "rank": 389
+  },
+  {
+    "rank_raw": 392,
+    "university": "National Taiwan University of Science and Technology (Taiwan Tech)",
+    "score": 30.0,
+    "rank": 392
+  },
+  {
+    "rank_raw": 393,
+    "university": "National and Kapodistrian University of Athens",
+    "score": 29.9,
+    "rank": 393
+  },
+  {
+    "rank_raw": 393,
+    "university": "University of California, Santa Cruz",
+    "score": 29.9,
+    "rank": 393
+  },
+  {
+    "rank_raw": 393,
+    "university": "University of Rome \"Tor Vergata\"",
+    "score": 29.9,
+    "rank": 393
+  },
+  {
+    "rank_raw": 396,
+    "university": "Northeastern University",
+    "score": 29.7,
+    "rank": 396
+  },
+  {
+    "rank_raw": 396,
+    "university": "Ruhr-Universität Bochum",
+    "score": 29.7,
+    "rank": 396
+  },
+  {
+    "rank_raw": 396,
+    "university": "Sejong University ",
+    "score": 29.7,
+    "rank": 396
+  },
+  {
+    "rank_raw": 396,
+    "university": "Université de Liège",
+    "score": 29.7,
+    "rank": 396
+  },
+  {
+    "rank_raw": 396,
+    "university": "University of Southern Queensland ",
+    "score": 29.7,
+    "rank": 396
+  },
+  {
+    "rank_raw": 401,
+    "university": "Kazan (Volga region) Federal University",
+    "score": 29.6,
+    "rank": 401
+  },
+  {
+    "rank_raw": 401,
+    "university": "Koç University",
+    "score": 29.6,
+    "rank": 401
+  },
+  {
+    "rank_raw": 403,
+    "university": "Amirkabir University of Technology",
+    "score": 29.5,
+    "rank": 403
+  },
+  {
+    "rank_raw": 403,
+    "university": "University of Canberra ",
+    "score": 29.5,
+    "rank": 403
+  },
+  {
+    "rank_raw": 405,
+    "university": "Institut National des Sciences Appliquées de Lyon (INSA)",
+    "score": 29.3,
+    "rank": 405
+  },
+  {
+    "rank_raw": 405,
+    "university": "Satbayev University",
+    "score": 29.3,
+    "rank": 405
+  },
+  {
+    "rank_raw": 405,
+    "university": "USI - Università della Svizzera italiana",
+    "score": 29.3,
+    "rank": 405
+  },
+  {
+    "rank_raw": 408,
+    "university": "Birkbeck, University of London",
+    "score": 29.1,
+    "rank": 408
+  },
+  {
+    "rank_raw": 408,
+    "university": "Masaryk University",
+    "score": 29.1,
+    "rank": 408
+  },
+  {
+    "rank_raw": 410,
+    "university": "HSE University",
+    "score": 29.0,
+    "rank": 410
+  },
+  {
+    "rank_raw": 410,
+    "university": "The American University in Cairo",
+    "score": 29.0,
+    "rank": 410
+  },
+  {
+    "rank_raw": 412,
+    "university": "Auckland University of Technology (AUT)",
+    "score": 28.9,
+    "rank": 412
+  },
+  {
+    "rank_raw": 413,
+    "university": "Graz University of Technology",
+    "score": 28.8,
+    "rank": 413
+  },
+  {
+    "rank_raw": 413,
+    "university": "Yeshiva University",
+    "score": 28.8,
+    "rank": 413
+  },
+  {
+    "rank_raw": 415,
+    "university": "Concordia University",
+    "score": 28.7,
+    "rank": 415
+  },
+  {
+    "rank_raw": 416,
+    "university": "Oxford Brookes University",
+    "score": 28.6,
+    "rank": 416
+  },
+  {
+    "rank_raw": 416,
+    "university": "Technion - Israel Institute of Technology",
+    "score": 28.6,
+    "rank": 416
+  },
+  {
+    "rank_raw": 418,
+    "university": " University of Dundee",
+    "score": 28.5,
+    "rank": 418
+  },
+  {
+    "rank_raw": 418,
+    "university": "Boğaziçi University",
+    "score": 28.5,
+    "rank": 418
+  },
+  {
+    "rank_raw": 420,
+    "university": "Czech Technical University in Prague",
+    "score": 28.4,
+    "rank": 420
+  },
+  {
+    "rank_raw": 421,
+    "university": "Dublin City University",
+    "score": 28.3,
+    "rank": 421
+  },
+  {
+    "rank_raw": 421,
+    "university": "University of Limerick",
+    "score": 28.3,
+    "rank": 421
+  },
+  {
+    "rank_raw": 423,
+    "university": "Aston University",
+    "score": 28.1,
+    "rank": 423
+  },
+  {
+    "rank_raw": 423,
+    "university": "Université Laval",
+    "score": 28.1,
+    "rank": 423
+  },
+  {
+    "rank_raw": 425,
+    "university": "National Taipei University of Technology",
+    "score": 28.0,
+    "rank": 425
+  },
+  {
+    "rank_raw": 426,
+    "university": "IPB University (a.k.a. Bogor Agricultural University)",
+    "score": 27.9,
+    "rank": 426
+  },
+  {
+    "rank_raw": 426,
+    "university": "Leibniz University Hannover",
+    "score": 27.9,
+    "rank": 426
+  },
+  {
+    "rank_raw": 428,
+    "university": "Julius-Maximilians-Universität Würzburg",
+    "score": 27.8,
+    "rank": 428
+  },
+  {
+    "rank_raw": 428,
+    "university": "Southeast University",
+    "score": 27.8,
+    "rank": 428
+  },
+  {
+    "rank_raw": 430,
+    "university": "University of Science and Technology Beijing",
+    "score": 27.7,
+    "rank": 430
+  },
+  {
+    "rank_raw": 431,
+    "university": "Central South University",
+    "score": 27.6,
+    "rank": 431
+  },
+  {
+    "rank_raw": 431,
+    "university": "Tomsk State University",
+    "score": 27.6,
+    "rank": 431
+  },
+  {
+    "rank_raw": 431,
+    "university": "University of Granada",
+    "score": 27.6,
+    "rank": 431
+  },
+  {
+    "rank_raw": 434,
+    "university": "University of Sharjah",
+    "score": 27.5,
+    "rank": 434
+  },
+  {
+    "rank_raw": 435,
+    "university": "IE University",
+    "score": 27.4,
+    "rank": 435
+  },
+  {
+    "rank_raw": 436,
+    "university": "Iran University of Science and Technology",
+    "score": 27.2,
+    "rank": 436
+  },
+  {
+    "rank_raw": 436,
+    "university": "Murdoch University",
+    "score": 27.2,
+    "rank": 436
+  },
+  {
+    "rank_raw": 436,
+    "university": "Universitat Politècnica de València",
+    "score": 27.2,
+    "rank": 436
+  },
+  {
+    "rank_raw": 439,
+    "university": "Vilnius University ",
+    "score": 27.1,
+    "rank": 439
+  },
+  {
+    "rank_raw": 440,
+    "university": "Singapore University of Technology and Design",
+    "score": 27.0,
+    "rank": 440
+  },
+  {
+    "rank_raw": 440,
+    "university": "Università degli Studi di Pavia",
+    "score": 27.0,
+    "rank": 440
+  },
+  {
+    "rank_raw": 442,
+    "university": "Colorado State University",
+    "score": 26.8,
+    "rank": 442
+  },
+  {
+    "rank_raw": 442,
+    "university": "Novosibirsk State University",
+    "score": 26.8,
+    "rank": 442
+  },
+  {
+    "rank_raw": 442,
+    "university": "Università Cattolica del Sacro Cuore",
+    "score": 26.8,
+    "rank": 442
+  },
+  {
+    "rank_raw": 445,
+    "university": "James Cook University",
+    "score": 26.7,
+    "rank": 445
+  },
+  {
+    "rank_raw": 445,
+    "university": "Justus-Liebig-University Giessen",
+    "score": 26.7,
+    "rank": 445
+  },
+  {
+    "rank_raw": 445,
+    "university": "Universitat de Valencia",
+    "score": 26.7,
+    "rank": 445
+  },
+  {
+    "rank_raw": 448,
+    "university": "Dalian University of Technology",
+    "score": 26.6,
+    "rank": 448
+  },
+  {
+    "rank_raw": 448,
+    "university": "Hunan University ",
+    "score": 26.6,
+    "rank": 448
+  },
+  {
+    "rank_raw": 448,
+    "university": "Université de Montpellier",
+    "score": 26.6,
+    "rank": 448
+  },
+  {
+    "rank_raw": 451,
+    "university": "University of Electronic Science and Technology of China",
+    "score": 26.5,
+    "rank": 451
+  },
+  {
+    "rank_raw": 452,
+    "university": "Beihang University (former BUAA)",
+    "score": 26.4,
+    "rank": 452
+  },
+  {
+    "rank_raw": 452,
+    "university": "National Taiwan Normal University",
+    "score": 26.4,
+    "rank": 452
+  },
+  {
+    "rank_raw": 452,
+    "university": "University of Kansas",
+    "score": 26.4,
+    "rank": 452
+  },
+  {
+    "rank_raw": 452,
+    "university": "University of Stirling",
+    "score": 26.4,
+    "rank": 452
+  },
+  {
+    "rank_raw": 456,
+    "university": "Moscow Institute of Physics and Technology (MIPT / Moscow Phystech)",
+    "score": 26.3,
+    "rank": 456
+  },
+  {
+    "rank_raw": 456,
+    "university": "Umea University",
+    "score": 26.3,
+    "rank": 456
+  },
+  {
+    "rank_raw": 456,
+    "university": "Université de Strasbourg",
+    "score": 26.3,
+    "rank": 456
+  },
+  {
+    "rank_raw": 456,
+    "university": "University of Guelph",
+    "score": 26.3,
+    "rank": 456
+  },
+  {
+    "rank_raw": 460,
+    "university": "Stony Brook University, State University of New York",
+    "score": 26.2,
+    "rank": 460
+  },
+  {
+    "rank_raw": 461,
+    "university": "Universidad de Santiago de Chile (USACH)",
+    "score": 26.1,
+    "rank": 461
+  },
+  {
+    "rank_raw": 462,
+    "university": "Tampere University",
+    "score": 26.0,
+    "rank": 462
+  },
+  {
+    "rank_raw": 462,
+    "university": "Universidad de Sevilla",
+    "score": 26.0,
+    "rank": 462
+  },
+  {
+    "rank_raw": 464,
+    "university": "Macau University of Science and Technology",
+    "score": 25.9,
+    "rank": 464
+  },
+  {
+    "rank_raw": 465,
+    "university": "Kobe University",
+    "score": 25.8,
+    "rank": 465
+  },
+  {
+    "rank_raw": 466,
+    "university": "Universität Konstanz",
+    "score": 25.7,
+    "rank": 466
+  },
+  {
+    "rank_raw": 466,
+    "university": "Universitat Ramon Llull",
+    "score": 25.7,
+    "rank": 466
+  },
+  {
+    "rank_raw": 466,
+    "university": "University at Buffalo SUNY",
+    "score": 25.7,
+    "rank": 466
+  },
+  {
+    "rank_raw": 466,
+    "university": "Washington State University",
+    "score": 25.7,
+    "rank": 466
+  },
+  {
+    "rank_raw": 470,
+    "university": "Iowa State University",
+    "score": 25.6,
+    "rank": 470
+  },
+  {
+    "rank_raw": 471,
+    "university": "Ben-Gurion University of The Negev",
+    "score": 25.5,
+    "rank": 471
+  },
+  {
+    "rank_raw": 472,
+    "university": "Essex, University of",
+    "score": 25.3,
+    "rank": 472
+  },
+  {
+    "rank_raw": 472,
+    "university": "Johannes Kepler University Linz",
+    "score": 25.3,
+    "rank": 472
+  },
+  {
+    "rank_raw": 474,
+    "university": "Bangor University",
+    "score": 25.2,
+    "rank": 474
+  },
+  {
+    "rank_raw": 474,
+    "university": "Hiroshima University",
+    "score": 25.2,
+    "rank": 474
+  },
+  {
+    "rank_raw": 474,
+    "university": "Universität Potsdam",
+    "score": 25.2,
+    "rank": 474
+  },
+  {
+    "rank_raw": 477,
+    "university": "Ajman University",
+    "score": 25.1,
+    "rank": 477
+  },
+  {
+    "rank_raw": 477,
+    "university": "Bilkent University",
+    "score": 25.1,
+    "rank": 477
+  },
+  {
+    "rank_raw": 477,
+    "university": "Indian Institute of Technology Indore (IIT Indore)",
+    "score": 25.1,
+    "rank": 477
+  },
+  {
+    "rank_raw": 477,
+    "university": "Royal Holloway University of London",
+    "score": 25.1,
+    "rank": 477
+  },
+  {
+    "rank_raw": 481,
+    "university": "Aix-Marseille University",
+    "score": 25.0,
+    "rank": 481
+  },
+  {
+    "rank_raw": 481,
+    "university": "Pontificia Universidad Católica Argentina",
+    "score": 25.0,
+    "rank": 481
+  },
+  {
+    "rank_raw": 481,
+    "university": "The University of Tennessee, Knoxville",
+    "score": 25.0,
+    "rank": 481
+  },
+  {
+    "rank_raw": 484,
+    "university": "China Agricultural University ",
+    "score": 24.9,
+    "rank": 484
+  },
+  {
+    "rank_raw": 485,
+    "university": "American University of Ras Al Khaimah ( AURAK )",
+    "score": 24.8,
+    "rank": 485
+  },
+  {
+    "rank_raw": 485,
+    "university": "National Sun Yat-sen University",
+    "score": 24.8,
+    "rank": 485
+  },
+  {
+    "rank_raw": 487,
+    "university": "Universität Mannheim",
+    "score": 24.7,
+    "rank": 487
+  },
+  {
+    "rank_raw": 488,
+    "university": "University of Hawaiʻi at Mānoa",
+    "score": 24.6,
+    "rank": 488
+  },
+  {
+    "rank_raw": 489,
+    "university": "Chongqing University",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 489,
+    "university": "Chung-Ang University (CAU)",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 489,
+    "university": "Isfahan University of Technology",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 489,
+    "university": "Shanghai University",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 489,
+    "university": "UNESP",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 489,
+    "university": "University of Jyväskylä",
+    "score": 24.5,
+    "rank": 489
+  },
+  {
+    "rank_raw": 495,
+    "university": "Central Queensland University (CQUniversity Australia)",
+    "score": 24.4,
+    "rank": 495
+  },
+  {
+    "rank_raw": 495,
+    "university": "Duy Tan University",
+    "score": 24.4,
+    "rank": 495
+  },
+  {
+    "rank_raw": 497,
+    "university": "Jilin University",
+    "score": 24.2,
+    "rank": 497
+  },
+  {
+    "rank_raw": 497,
+    "university": "National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)",
+    "score": 24.2,
+    "rank": 497
+  },
+  {
+    "rank_raw": 497,
+    "university": "Universidad de Costa Rica",
+    "score": 24.2,
+    "rank": 497
+  },
+  {
+    "rank_raw": 497,
+    "university": "University of California, Riverside",
+    "score": 24.2,
+    "rank": 497
+  },
+  {
+    "rank_raw": 501,
+    "university": "Abu Dhabi University",
+    "score": 24.1,
+    "rank": 501
+  },
+  {
+    "rank_raw": 501,
+    "university": "Colorado School of Mines",
+    "score": 24.1,
+    "rank": 501
+  },
+  {
+    "rank_raw": 501,
+    "university": "East China Normal University",
+    "score": 24.1,
+    "rank": 501
+  },
+  {
+    "rank_raw": 501,
+    "university": "Johannes Gutenberg Universität Mainz",
+    "score": 24.1,
+    "rank": 501
+  },
+  {
+    "rank_raw": 501,
+    "university": "University of Huddersfield",
+    "score": 24.1,
+    "rank": 501
+  },
+  {
+    "rank_raw": 506,
+    "university": "University of Delaware",
+    "score": 24.0,
+    "rank": 506
+  },
+  {
+    "rank_raw": 506,
+    "university": "University of Trento",
+    "score": 24.0,
+    "rank": 506
+  },
+  {
+    "rank_raw": 508,
+    "university": "Aristotle University of Thessaloniki",
+    "score": 23.9,
+    "rank": 508
+  },
+  {
+    "rank_raw": 508,
+    "university": "Shenzhen University",
+    "score": 23.9,
+    "rank": 508
+  },
+  {
+    "rank_raw": 508,
+    "university": "SOAS University of London ",
+    "score": 23.9,
+    "rank": 508
+  },
+  {
+    "rank_raw": 511,
+    "university": "Ewha Womans University",
+    "score": 23.8,
+    "rank": 511
+  },
+  {
+    "rank_raw": 511,
+    "university": "Zhengzhou University",
+    "score": 23.8,
+    "rank": 511
+  },
+  {
+    "rank_raw": 513,
+    "university": "Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM)",
+    "score": 23.7,
+    "rank": 513
+  },
+  {
+    "rank_raw": 513,
+    "university": "Prince Mohammad Bin Fahd university",
+    "score": 23.7,
+    "rank": 513
+  },
+  {
+    "rank_raw": 513,
+    "university": "University of Milano-Bicocca ",
+    "score": 23.7,
+    "rank": 513
+  },
+  {
+    "rank_raw": 516,
+    "university": "Ateneo de Manila University",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "Edith Cowan University ",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "INTI International University",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "Kyungpook National University",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "Sabanci University",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "University of Hull",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 516,
+    "university": "Ural Federal University - UrFU",
+    "score": 23.6,
+    "rank": 516
+  },
+  {
+    "rank_raw": 523,
+    "university": "Canadian University Dubai",
+    "score": 23.5,
+    "rank": 523
+  },
+  {
+    "rank_raw": 524,
+    "university": "Pusan National University",
+    "score": 23.4,
+    "rank": 524
+  },
+  {
+    "rank_raw": 524,
+    "university": "Universidad Austral",
+    "score": 23.4,
+    "rank": 524
+  },
+  {
+    "rank_raw": 526,
+    "university": "Coventry University",
+    "score": 23.3,
+    "rank": 526
+  },
+  {
+    "rank_raw": 526,
+    "university": "Universität Jena",
+    "score": 23.3,
+    "rank": 526
+  },
+  {
+    "rank_raw": 527,
+    "university": "Missouri University of Science and Technology",
+    "score": 23.2,
+    "rank": 527
+  },
+  {
+    "rank_raw": 527,
+    "university": "Universität Leipzig",
+    "score": 23.2,
+    "rank": 527
+  },
+  {
+    "rank_raw": 527,
+    "university": "University of Bayreuth",
+    "score": 23.2,
+    "rank": 527
+  },
+  {
+    "rank_raw": 527,
+    "university": "Warsaw University of Technology",
+    "score": 23.2,
+    "rank": 527
+  },
+  {
+    "rank_raw": 531,
+    "university": "Indian Institute of Technology (BHU) Varanasi",
+    "score": 23.1,
+    "rank": 531
+  },
+  {
+    "rank_raw": 531,
+    "university": "University of Bradford",
+    "score": 23.1,
+    "rank": 531
+  },
+  {
+    "rank_raw": 531,
+    "university": "University of Utah",
+    "score": 23.1,
+    "rank": 531
+  },
+  {
+    "rank_raw": 534,
+    "university": "Universidad Nacional de La Plata (UNLP)",
+    "score": 23.0,
+    "rank": 534
+  },
+  {
+    "rank_raw": 535,
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "score": 22.9,
+    "rank": 535
+  },
+  {
+    "rank_raw": 535,
+    "university": "Northumbria University at Newcastle",
+    "score": 22.9,
+    "rank": 535
+  },
+  {
+    "rank_raw": 535,
+    "university": "University of Bordeaux",
+    "score": 22.9,
+    "rank": 535
+  },
+  {
+    "rank_raw": 535,
+    "university": "University of Eastern Finland",
+    "score": 22.9,
+    "rank": 535
+  },
+  {
+    "rank_raw": 539,
+    "university": "Applied Science University - Bahrain",
+    "score": 22.8,
+    "rank": 539
+  },
+  {
+    "rank_raw": 539,
+    "university": "Hitotsubashi University",
+    "score": 22.8,
+    "rank": 539
+  },
+  {
+    "rank_raw": 539,
+    "university": "Sunway University",
+    "score": 22.8,
+    "rank": 539
+  },
+  {
+    "rank_raw": 539,
+    "university": "Université de Fribourg",
+    "score": 22.8,
+    "rank": 539
+  },
+  {
+    "rank_raw": 539,
+    "university": "University of Salamanca",
+    "score": 22.8,
+    "rank": 539
+  },
+  {
+    "rank_raw": 544,
+    "university": "Universidad de Zaragoza",
+    "score": 22.7,
+    "rank": 544
+  },
+  {
+    "rank_raw": 544,
+    "university": "Universidad Pontificia Comillas",
+    "score": 22.7,
+    "rank": 544
+  },
+  {
+    "rank_raw": 547,
+    "university": "Northwestern Polytechnical University",
+    "score": 22.6,
+    "rank": 547
+  },
+  {
+    "rank_raw": 547,
+    "university": "Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU)",
+    "score": 22.6,
+    "rank": 547
+  },
+  {
+    "rank_raw": 547,
+    "university": "University of Genoa",
+    "score": 22.6,
+    "rank": 547
+  },
+  {
+    "rank_raw": 547,
+    "university": "University of Iceland",
+    "score": 22.6,
+    "rank": 547
+  },
+  {
+    "rank_raw": 547,
+    "university": "University of Windsor",
+    "score": 22.6,
+    "rank": 547
+  },
+  {
+    "rank_raw": 552,
+    "university": "Al Ain University",
+    "score": 22.5,
+    "rank": 552
+  },
+  {
+    "rank_raw": 552,
+    "university": "University of Tabriz",
+    "score": 22.5,
+    "rank": 552
+  },
+  {
+    "rank_raw": 554,
+    "university": "Hasselt University ",
+    "score": 22.4,
+    "rank": 554
+  },
+  {
+    "rank_raw": 554,
+    "university": "Jordan University of Science & Technology",
+    "score": 22.4,
+    "rank": 554
+  },
+  {
+    "rank_raw": 554,
+    "university": "Universiti Utara Malaysia (UUM)",
+    "score": 22.4,
+    "rank": 554
+  },
+  {
+    "rank_raw": 554,
+    "university": "University of Dhaka",
+    "score": 22.4,
+    "rank": 554
+  },
+  {
+    "rank_raw": 554,
+    "university": "University Ulm",
+    "score": 22.4,
+    "rank": 554
+  },
+  {
+    "rank_raw": 559,
+    "university": "Peter the Great St. Petersburg Polytechnic University",
+    "score": 22.3,
+    "rank": 559
+  },
+  {
+    "rank_raw": 559,
+    "university": "Ulster University",
+    "score": 22.3,
+    "rank": 559
+  },
+  {
+    "rank_raw": 559,
+    "university": "Umm Al-Qura University ",
+    "score": 22.3,
+    "rank": 559
+  },
+  {
+    "rank_raw": 562,
+    "university": "Université Claude Bernard Lyon 1",
+    "score": 22.2,
+    "rank": 562
+  },
+  {
+    "rank_raw": 562,
+    "university": "Universiti Teknologi Brunei",
+    "score": 22.2,
+    "rank": 562
+  },
+  {
+    "rank_raw": 564,
+    "university": "Eötvös Loránd University",
+    "score": 22.1,
+    "rank": 564
+  },
+  {
+    "rank_raw": 565,
+    "university": "Nanjing University of Science and Technology",
+    "score": 22.0,
+    "rank": 565
+  },
+  {
+    "rank_raw": 565,
+    "university": "University of Connecticut",
+    "score": 22.0,
+    "rank": 565
+  },
+  {
+    "rank_raw": 567,
+    "university": "Chiang Mai University",
+    "score": 21.9,
+    "rank": 567
+  },
+  {
+    "rank_raw": 567,
+    "university": "Lebanese University",
+    "score": 21.9,
+    "rank": 567
+  },
+  {
+    "rank_raw": 567,
+    "university": "MGIMO University",
+    "score": 21.9,
+    "rank": 567
+  },
+  {
+    "rank_raw": 570,
+    "university": "University of Chemistry and Technology, Prague",
+    "score": 21.8,
+    "rank": 570
+  },
+  {
+    "rank_raw": 570,
+    "university": "University of Szeged",
+    "score": 21.8,
+    "rank": 570
+  },
+  {
+    "rank_raw": 570,
+    "university": "University of the Punjab",
+    "score": 21.8,
+    "rank": 570
+  },
+  {
+    "rank_raw": 573,
+    "university": "Florida State University",
+    "score": 21.6,
+    "rank": 573
+  },
+  {
+    "rank_raw": 574,
+    "university": "Florida International University",
+    "score": 21.5,
+    "rank": 574
+  },
+  {
+    "rank_raw": 574,
+    "university": "University of Debrecen",
+    "score": 21.5,
+    "rank": 574
+  },
+  {
+    "rank_raw": 576,
+    "university": "National Research Tomsk Polytechnic University",
+    "score": 21.4,
+    "rank": 576
+  },
+  {
+    "rank_raw": 576,
+    "university": "Sogang University",
+    "score": 21.4,
+    "rank": 576
+  },
+  {
+    "rank_raw": 576,
+    "university": "Southern Cross University ",
+    "score": 21.4,
+    "rank": 576
+  },
+  {
+    "rank_raw": 576,
+    "university": "Universidad Adolfo Ibáñez",
+    "score": 21.4,
+    "rank": 576
+  },
+  {
+    "rank_raw": 580,
+    "university": "Jawaharlal Nehru University",
+    "score": 21.3,
+    "rank": 580
+  },
+  {
+    "rank_raw": 580,
+    "university": "Jinan University (China)",
+    "score": 21.3,
+    "rank": 580
+  },
+  {
+    "rank_raw": 580,
+    "university": "Management and Science University",
+    "score": 21.3,
+    "rank": 580
+  },
+  {
+    "rank_raw": 580,
+    "university": "Politecnico di Bari",
+    "score": 21.3,
+    "rank": 580
+  },
+  {
+    "rank_raw": 580,
+    "university": "Université Paul Sabatier Toulouse III",
+    "score": 21.3,
+    "rank": 580
+  },
+  {
+    "rank_raw": 585,
+    "university": "Institut Teknologi Sepuluh Nopember (ITS Surabaya)",
+    "score": 21.2,
+    "rank": 585
+  },
+  {
+    "rank_raw": 585,
+    "university": "Singapore Management University",
+    "score": 21.2,
+    "rank": 585
+  },
+  {
+    "rank_raw": 587,
+    "university": "Bond University",
+    "score": 21.1,
+    "rank": 587
+  },
+  {
+    "rank_raw": 587,
+    "university": "Shoolini University of Biotechnology and Management Sciences",
+    "score": 21.1,
+    "rank": 587
+  },
+  {
+    "rank_raw": 587,
+    "university": "The University of Georgia",
+    "score": 21.1,
+    "rank": 587
+  },
+  {
+    "rank_raw": 587,
+    "university": "Universiti Teknologi MARA - UiTM",
+    "score": 21.1,
+    "rank": 587
+  },
+  {
+    "rank_raw": 587,
+    "university": "University of Kwazulu-Natal",
+    "score": 21.1,
+    "rank": 587
+  },
+  {
+    "rank_raw": 592,
+    "university": "Ain Shams University ",
+    "score": 21.0,
+    "rank": 592
+  },
+  {
+    "rank_raw": 592,
+    "university": "Nottingham Trent University",
+    "score": 21.0,
+    "rank": 592
+  },
+  {
+    "rank_raw": 592,
+    "university": "Universität Bremen",
+    "score": 21.0,
+    "rank": 592
+  },
+  {
+    "rank_raw": 595,
+    "university": "ITMO University",
+    "score": 20.9,
+    "rank": 595
+  },
+  {
+    "rank_raw": 596,
+    "university": "Thammasat University",
+    "score": 20.8,
+    "rank": 596
+  },
+  {
+    "rank_raw": 596,
+    "university": "Universitas Padjadjaran",
+    "score": 20.8,
+    "rank": 596
+  },
+  {
+    "rank_raw": 596,
+    "university": "University of Iowa",
+    "score": 20.8,
+    "rank": 596
+  },
+  {
+    "rank_raw": 596,
+    "university": "University of Ljubljana",
+    "score": 20.8,
+    "rank": 596
+  },
+  {
+    "rank_raw": 596,
+    "university": "University of Texas Dallas",
+    "score": 20.8,
+    "rank": 596
+  }
+]
