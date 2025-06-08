@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (newArr[j] > newArr[j + 1]) {
                     // Swap
-                    [newArr[j], newArr[j + 1]] = [newArr[j + 1]], newArr[j]];
+                    [newArr[j], newArr[j + 1]] = [newArr[j + 1], newArr[j]];
                     swapped = true;
                     swapuri++;
                     nrSwapuriSortareEl.textContent = swapuri;
