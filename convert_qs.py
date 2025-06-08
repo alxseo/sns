@@ -1,21 +1,20 @@
 # convert_qs.py
-import pandas as pd
-import json
+import pandas as pd, json
 
-# Citește file-ul Excel
+# Citește fișierul Excel (pus în folderul data/)
 df = pd.read_excel(
     'data/2025 QS World University Rankings 2.2 (For qs.com).xlsx',
     sheet_name=0
 )
 
-# Păstrează doar coloanele relevante și redenumește-le
+# Păstrează și redenumește doar coloanele relevante
 df = df.rename(columns={
     'Rank': 'rank',
     'University name': 'university',
     'Overall score': 'score'
 })[['rank', 'university', 'score']]
 
-# Curăță rândurile lipsă
+# Elimină rândurile fără rank sau university
 df = df.dropna(subset=['rank', 'university'])
 
 # Exportă în JSON
