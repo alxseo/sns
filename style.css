@@ -1,1 +1,27 @@
+/* style.css */
+body {
+    font-family: sans-serif; /* Sau un font preferat */
+}
 
+#vizualizareSortareContainer > div {
+    /* Poți adăuga aici stiluri specifice pentru bare, dacă e nevoie */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 3px 3px 0 0;
+}
+
+#grafPageRankContainer svg text {
+    pointer-events: none; /* Pentru a nu interfera cu evenimentele pe cercuri, dacă adaugi */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* Ajustări pentru lizibilitatea navigației cu Pico.css */
+header nav ul:last-child {
+    margin-bottom: 0; /* Elimină marginea de jos pentru aliniere mai bună */
+}
+
+header nav li a[role="button"] {
+    padding: 0.5rem 0.75rem; /* Ajustează padding-ul butoanelor din navigație */
+    margin-left: 0.5rem;
+}
