@@ -1,127 +1,60 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Lucrare Licență - Algoritmi de Sortare și Rankare</title>
-    <!-- Includem Pico.css pentru stilizare minimalistă și modernă -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <!-- Link către fișierul tău CSS custom, dacă vei avea nevoie de stiluri suplimentare -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demo Algoritmi de Sortare</title>
+  <!-- Pico.css pentru stil minimalist -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"/>
+  <style>
+    #vizualizareSortareContainer {
+      display: flex;
+      align-items: flex-end;
+      height: 200px;
+      gap: 4px;
+      margin-top: 1rem;
+    }
+    #vizualizareSortareContainer div {
+      flex: 1;
+      transition: height 0.3s, background-color 0.3s;
+      text-align: center;
+      color: white;
+      font-size: 0.8rem;
+      line-height: 1.2;
+    }
+  </style>
 </head>
 <body>
-    <header class="container">
-        <nav>
-            <ul>
-                <li><strong>Demo Algoritmi</strong></li>
-            </ul>
-            <ul>
-                <li><a href="#sortare">Sortare</a></li>
-                <li><a href="#rankare-metrici">Metrici Rankare</a></li>
-                <li><a href="#pagerank-universitati">PageRank Universități</a></li>
-            </ul>
-        </nav>
-        <hgroup>
-            <h1>Demonstrații Practice: Algoritmi de Sortare și Rankare</h1>
-            <p>O aplicație web interactivă pentru lucrarea de licență.</p>
-        </hgroup>
-    </header>
+  <main class="container">
+    <h1>Demo Algoritmi de Sortare</h1>
+    <article>
+      <header>
+        <h2>Vizualizator Sortare</h2>
+      </header>
+      <label for="inputListaSortare">Listează valori separate prin virgulă:</label>
+      <input id="inputListaSortare" type="text" placeholder="ex: 5,3,8,1,2"/>
+      <label for="dimensiuneListaRandom">sau generează random (<code>n</code>):</label>
+      <input id="dimensiuneListaRandom" type="number" min="2" max="50" value="10"/>
+      <button id="btnGenereazaLista">Generează listă</button>
 
-    <main class="container">
-        <!-- Secțiunea pentru Vizualizarea Algoritmilor de Sortare -->
-        <section id="sortare">
-            <h2>Vizualizator Algoritmi de Sortare</h2>
-            <article>
-                <p>Introduceți o listă de numere separate prin virgulă sau generați una aleatoriu.</p>
-                <div>
-                    <label for="inputListaSortare">Listă numere:</label>
-                    <input type="text" id="inputListaSortare" name="inputListaSortare" placeholder="ex: 5,1,9,3,7">
-                </div>
-                <div class="grid">
-                    <div>
-                        <label for="selectAlgoritmSortare">Alege Algoritmul:</label>
-                        <select id="selectAlgoritmSortare" name="selectAlgoritmSortare">
-                            <option value="bubbleSort">Bubble Sort</option>
-                            <option value="quickSort">QuickSort</option>
-                            <!-- Poți adăuga și alți algoritmi aici -->
-                        </select>
-                    </div>
-                    <div>
-                        <label for="dimensiuneListaRandom">Dim. listă random (1-20):</label>
-                        <input type="number" id="dimensiuneListaRandom" name="dimensiuneListaRandom" min="1" max="20" value="10">
-                    </div>
-                </div>
-                <div class="grid">
-                     <button id="btnGenereazaLista">Generează Listă Aleatorie</button>
-                     <button id="btnSorteaza">Sortează Pas cu Pas</button>
-                     <!-- <button id="btnSorteazaComplet">Sortează Complet</button> -->
-                </div>
-                <div id="vizualizareSortareContainer" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px; min-height: 100px; display: flex; align-items: flex-end;">
-                    <!-- Aici va apărea vizualizarea listei/barelor -->
-                </div>
-                <div id="infoSortare" style="margin-top: 10px;">
-                    <p>Pași: <span id="nrPasiSortare">0</span> | Comparații: <span id="nrComparatiiSortare">0</span> | Swap-uri: <span id="nrSwapuriSortare">0</span></p>
-                </div>
-            </article>
-        </section>
+      <label for="selectAlgoritmSortare">Alege algoritm:</label>
+      <select id="selectAlgoritmSortare">
+        <option value="bubble">Bubble Sort</option>
+        <option value="quick">Quick Sort</option>
+      </select>
+      <button id="btnSorteaza">Pornește sortarea</button>
 
-        <hr>
+      <div>
+        <strong>Pași:</strong> <span id="nrPasiSortare">0</span>,
+        <strong>Comparări:</strong> <span id="nrComparatiiSortare">0</span>,
+        <strong>Swap-uri:</strong> <span id="nrSwapuriSortare">0</span>
+      </div>
 
-        <!-- Secțiunea pentru Calcularea Metricilor de Rankare -->
-        <section id="rankare-metrici">
-            <h2>Calculator Metrici de Rankare</h2>
-            <article>
-                <p>Introduceți lista de itemi relevanți și lista de itemi returnați (ID-uri separate prin virgulă).</p>
-                <div>
-                    <label for="inputItemiRelevanti">Itemi Relevanți (ideal):</label>
-                    <input type="text" id="inputItemiRelevanti" name="inputItemiRelevanti" placeholder="ex: doc1,doc3,doc5">
-                </div>
-                <div>
-                    <label for="inputItemiReturnati">Itemi Returnați (de algoritm):</label>
-                    <input type="text" id="inputItemiReturnati" name="inputItemiReturnati" placeholder="ex: doc2,doc1,doc4,doc5,doc3">
-                </div>
-                <div>
-                    <label for="valoareK">Valoarea K (pentru P@k, NDCG@k):</label>
-                    <input type="number" id="valoareK" name="valoareK" min="1" value="5">
-                </div>
-                <button id="btnCalculeazaMetrici">Calculează Metrici</button>
-                <div id="rezultatMetrici" style="margin-top: 20px;">
-                    <!-- Aici vor apărea rezultatele metricilor -->
-                </div>
-            </article>
-        </section>
+      <div id="vizualizareSortareContainer"></div>
+    </article>
+  </main>
 
-        <hr>
-
-        <!-- Secțiunea pentru PageRank Universități -->
-        <section id="pagerank-universitati">
-            <h2>Demo PageRank Adaptat pentru Universități</h2>
-            <article>
-                <p>Selectați un set demonstrativ de universități și rulați algoritmul PageRank adaptat.</p>
-                <!-- Aici vei adăuga elemente pentru selectarea universităților
-                     și afișarea rezultatelor PageRank. Poate fi un tabel sau o listă.
-                     Pentru simplitate, la început poți avea un set predefinit de date
-                     direct în JavaScript. -->
-                <button id="btnRuleazaPageRankDemo">Rulează Demo PageRank</button>
-                                <div id="grafPageRankContainer" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px; min-height: 200px; position: relative;">
-                    <!-- Aici va fi desenat graful SVG -->
-                </div>
-                <div id="rezultatPageRankUniversitati" style="margin-top: 20px;">
-                    <h4>Clasament QS Original (Subset Demo)</h4>
-                    <ul id="listaQSOriginalDemo"></ul>
-                    <h4>Clasament PageRank Adaptat (Subset Demo)</h4>
-                    <ul id="listaPageRankDemo"></ul>
-                    <!-- Poate și o vizualizare simplă a grafului sau a diferențelor -->
-                </div>
-            </article>
-        </section>
-    </main>
-
-    <footer class="container">
-        <small>Aplicație demonstrativă realizată pentru lucrarea de licență, 2025.</small>
-    </footer>
-
-    <!-- Link către fișierul tău JavaScript, la finalul body-ului pentru performanță -->
-    <script src="script.js"></script>
+  <!-- script.js la sfârșit pentru încărcare mai rapidă -->
+  <script src="script.js"></script>
 </body>
 </html>
