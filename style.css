@@ -1,122 +1,696 @@
-/* style.css */
+/* Braun × Nothing × Teenage Engineering Inspired Design */
 
-/* ===== Font și layout de bază ===== */
+:root {
+  /* Core Colors - Monocromatic cu accente mai vizibile */
+  --color-bg: #f7f7f7;
+  --color-bg-secondary: #ebebeb;
+  --color-text: #0f0f0f;
+  --color-text-secondary: #555555;
+  --color-accent: #ff4400;
+  --color-accent-secondary: #2266ee;
+  --color-accent-subtle: rgba(255, 68, 0, 0.12);
+  --color-border: #d1d1d1;
+  --color-success: #3cb179;
+  --color-warning: #ffb020;
+  
+  /* Typography */
+  --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --line-height: 1.5;
+  --font-size-base: 16px;
+  
+  /* Spacing and Layout */
+  --spacing-unit: 8px;
+  --spacing-small: var(--spacing-unit);
+  --spacing-medium: calc(var(--spacing-unit) * 2);
+  --spacing-large: calc(var(--spacing-unit) * 3);
+  --spacing-xlarge: calc(var(--spacing-unit) * 5);
+  --border-radius: 2px;
+  --width-content: 1120px;
+  --width-card: 800px;
+  
+  /* Effects */
+  --shadow-subtle: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-raised: 0 1px 3px rgba(0, 0, 0, 0.09);
+  --transition-standard: all 0.2s ease;
+  
+  /* Animation */
+  --animation-timing: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* Base Elements */
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  line-height: var(--line-height);
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* ===== Header & navigație ===== */
-header {
-  background: #2563eb;
-  color: #fff;
-  padding: 1rem;
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--spacing-medium);
+  line-height: 1.2;
+  color: var(--color-text);
 }
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+
 header h1 {
-  margin: 0;
+  margin-bottom: var(--spacing-small);
+}
+
+header p {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-medium);
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: var(--spacing-large);
+}
+
+h3 {
   font-size: 1.5rem;
 }
-header nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-  margin: 0.5rem 0 0;
-  padding: 0;
-}
-header nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+
+p {
+  margin-bottom: var(--spacing-large);
+  max-width: 38em;
 }
 
-/* ===== Secțiuni ===== */
-main section {
-  padding: 2rem;
-}
-main hr {
-  border: none;
-  border-top: 1px solid #ddd;
-  margin: 2rem 0;
+small {
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
 }
 
-/* ===== Vizualizare Sortare ===== */
-#vizualizareSortareContainer {
-  display: flex;
-  align-items: flex-end;
-  height: 200px;
-  gap: 4px;
-  margin-top: 1rem;
-}
-#vizualizareSortareContainer > div {
-  flex: 1;
-  transition: height 0.3s, background-color 0.3s;
-  text-align: center;
-  color: #fff;
-  font-size: 0.8rem;
-  line-height: 1.2;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  border-radius: 3px 3px 0 0; /* :contentReference[oaicite:0]{index=0} */
-}
-
-/* ===== Tabel PageRank ===== */
-#outputPRank table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-#outputPRank th,
-#outputPRank td {
-  padding: 8px 12px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
-#outputPRank th {
-  background: #f0f0f0;
-  font-weight: bold;
-}
-
-/* ===== Chart QS 2025 ===== */
-#chartQS {
-  overflow-x: auto; /* În caz de ecran îngust */
-}
-#chartQS svg {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  display: block;
-  margin: 0 auto;
-}
-
-/* ===== Formular & input-uri ===== */
-input[type="text"],
-input[type="number"],
-textarea,
-select,
-button {
+/* Subtitluri în stil Braun */
+.subtitle {
   font-size: 1rem;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: var(--spacing-xlarge);
+  font-weight: normal;
+  letter-spacing: 0.01em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-button {
-  background: #2563eb;
-  color: #fff;
+
+/* Layout */
+main, header, footer {
+  margin: 0 auto;
+  max-width: var(--width-content);
+  padding: var(--spacing-xlarge) var(--spacing-large);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Full-width main container */
+main {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Stylized header in Braun design */
+header {
+  background-color: var(--color-bg-secondary);
+  border-bottom: 1px solid var(--color-border);
+  text-align: center;
+  margin: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+  padding-top: var(--spacing-medium);
+  padding-bottom: 0;
+}
+
+/* Adjust padding for full-width header */
+header {
+  padding-left: var(--spacing-large);
+  padding-right: var(--spacing-large);
+}
+
+footer {
+  margin-top: var(--spacing-xlarge);
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+/* Scoatem nav-ul din HTML, deci nu mai avem nevoie de nav-ul interna */
+nav {
+  display: none;
+}
+
+/* Section Styling - Main Card */
+.main-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-raised);
+  padding: var(--spacing-xlarge);
+  margin: var(--spacing-xlarge) auto;
+  width: clamp(75%, 80%, 85%);
+  min-width: 320px;
+  box-sizing: border-box;
+  transition: var(--transition-standard);
+}
+
+/* Wider card variant */
+.main-card.wide {
+  width: clamp(80%, 85%, 90%);
+  box-sizing: border-box;
+}
+
+/* Layoutul pentru grid-uri în cadrul cardurilor */
+.main-card .grid {
+  grid-gap: var(--spacing-large);
+  margin: var(--spacing-large) 0;
+  width: 100%;
+}
+
+.main-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.main-card h2 {
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: var(--spacing-large);
+  padding-bottom: var(--spacing-medium);
+  border-bottom: 1px solid var(--color-bg-secondary);
+  color: var(--color-text);
+}
+
+.main-card p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-large);
+}
+
+/* Forms and Inputs */
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: var(--spacing-small);
+  color: var(--color-text);
+}
+
+input, select, textarea {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+  width: 100%;
+  margin-bottom: var(--spacing-large);
+  font-family: var(--font-family);
+  transition: var(--transition-standard);
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--color-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-accent-subtle);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--color-bg-secondary);
+  outline: none;
   border: none;
+  padding: 0;
+  margin: var(--spacing-medium) 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--color-accent);
+  border-radius: 50%;
   cursor: pointer;
 }
-button:hover {
-  background: #1e4bb8;
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
 }
 
-/* ===== Responsive ===== */
+output {
+  display: inline-block;
+  margin-left: var(--spacing-medium);
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* Buttons */
+button {
+  background-color: var(--color-text);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.94rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-standard);
+  font-family: var(--font-family);
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 140px;
+  margin: var(--spacing-medium) 0;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+}
+
+button:disabled {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+  cursor: not-allowed;
+}
+
+/* Buton pentru acțiuni principale */
+button.primary, #btnSorteaza, #btnCalculeazaMetrici, #btnRuleazaPageRankDemo {
+  background-color: var(--color-accent);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+button.primary:hover, #btnSorteaza:hover, #btnCalculeazaMetrici:hover, #btnRuleazaPageRankDemo:hover {
+  background-color: #e64d00; /* Slightly darker orange */
+}
+
+/* Buton pentru acțiuni secundare */
+button.secondary, #btnGenereazaLista {
+  background-color: var(--color-text);
+}
+
+/* Container butoane pentru aliniere */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-medium);
+  margin: var(--spacing-large) 0;
+  width: 100%;
+}
+
+/* Pe mobil, butoanele devin stacked */
 @media (max-width: 600px) {
-  header nav ul {
+  .button-container {
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: stretch;
   }
-  #chartQS svg {
-    width: 100% !important;
-    height: auto !important;
+  
+  button {
+    width: 100%;
   }
+}
+
+/* Grid System */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-large);
+  margin: var(--spacing-large) 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden; /* Previne ca elementele să iasă din grid */
+}
+
+.grid > div {
+  padding: var(--spacing-medium);
+  border: none; /* Eliminăm marginile */
+  background: transparent; /* Facem fundalul transparent */
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: var(--spacing-medium) 0;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+ul li {
+  padding: var(--spacing-medium);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Visualization Containers */
+#vizualizareSortareContainer,
+#grafPageRankContainer {
+  background-color: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-xlarge);
+  margin: var(--spacing-large) 0;
+  min-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px; /* Mărim spațiul dintre elementele vizuale */
+}
+
+#vizualizareSortareContainer div {
+  background-color: var(--color-text);
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 1px;
+  transition: var(--transition-standard);
+}
+
+#vizualizareSortareContainer div span {
+  padding: var(--spacing-small);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+#vizualizareSortareContainer div.sorted {
+  background-color: var(--color-success);
+}
+
+#vizualizareSortareContainer div.active, 
+#vizualizareSortareContainer div.swapping {
+  background-color: var(--color-warning);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--color-warning);
+  transform: translateY(-4px) scale(1.05);
+  z-index: 1;
+}
+
+#vizualizareSortareContainer div.comparing {
+  background-color: var(--color-accent);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--color-accent);
+  transform: translateY(-4px);
+  z-index: 2;
+}
+
+#vizualizareSortareContainer div.pivot {
+  background-color: var(--color-accent-secondary);
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--color-accent-secondary);
+  transform: translateY(-4px) scale(1.05);
+  z-index: 3;
+}
+
+/* Info and explanation sections */
+#infoSortare, 
+#explicatiePasCurent {
+  background-color: transparent;
+  border-radius: 0;
+  padding: var(--spacing-large);
+  margin-top: -21px;
+  border: none;
+  box-sizing: border-box;
+}
+
+#infoSortare .grid {
+  border: none;
+  background-color: transparent;
+}
+
+#infoSortare p {
+  margin: var(--spacing-small) 0;
+  font-size: 0.94rem;
+  color: var(--color-text);
+  max-width: none;
+  text-align: center;
+}
+
+#infoSortare span {
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+#explicatieSortare, 
+#complexitateSortare {
+  max-width: 100%;
+  line-height: 1.6;
+  padding: var(--spacing-medium) var(--spacing-medium) var(--spacing-medium) var(--spacing-large);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  :root {
+    --font-size-base: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .main-card {
+    padding: var(--spacing-large);
+  }
+  
+  main, header, footer {
+    padding: var(--spacing-large) var(--spacing-medium);
+  }
+}
+
+/* Paddings și marginile pentru conținutul intern */
+.main-card > * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Highlight pentru valori importante */
+.highlight-value {
+  color: var(--color-accent) !important;
+  font-weight: 600 !important;
+}
+
+/* Elementele evidențiate în liste */
+ul li.highlighted {
+  background-color: var(--color-accent-subtle);
+  border-left: 3px solid var(--color-accent);
+}
+
+/* Stilizare pentru explicații */
+.algorithm-explanation {
+  line-height: 1.6;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-medium);
+  background-color: var(--color-bg);
+  padding: var(--spacing-medium) var(--spacing-medium) var(--spacing-medium) var(--spacing-large);
+  border-left: 2px solid var(--color-accent);
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Statistici și explicații - actualizare layout */
+.stats-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: var(--spacing-medium);
+  margin-top: calc(var(--spacing-small) * -1);
+  margin-bottom: var(--spacing-medium);
+}
+
+/* Force complexity/explanation to span full width under stats */
+.algorithm-details {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.stats-item {
+  margin-bottom: var(--spacing-small);
+  display: flex;
+  align-items: center;
+}
+
+.stats-item span {
+  margin-left: var(--spacing-small);
+}
+
+.stats-label {
+  font-weight: 500;
+}
+
+.stats-value {
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-left: var(--spacing-small);
+}
+
+/* Optimizarea containerului pentru vizualizare */
+#vizualizareSortareContainer {
+  margin-top: var(--spacing-large);
+}
+
+/* Eliminăm spațiul excesiv între secțiuni */
+section.main-card {
+  padding-bottom: var(--spacing-large);
+}
+
+/* Optimizare pentru mobile - statisticile devin o coloană */
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Project info section styling */
+.project-info {
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-subtle);
+  padding: var(--spacing-medium) var(--spacing-large);
+  margin: var(--spacing-large) auto;
+  width: clamp(75%, 80%, 85%);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-info h3 {
+  margin-top: 0;
+  color: var(--color-accent);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.project-info p {
+  margin: var(--spacing-small) 0;
+  font-size: 0.94rem;
+  color: var(--color-text);
+}
+
+/* Collapsible project-info dropdown */
+.project-info summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+.project-info summary::-webkit-details-marker {
+  display: none;
+}
+.project-info summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: var(--spacing-small);
+  transition: transform var(--transition-standard), color var(--transition-standard);
+}
+.project-info[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Restrict project-info width to match subtitle and center it */
+header > .project-info {
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+  max-width: 600px;
+}
+
+/* Add spacing below summary */
+.project-info summary {
+  margin-bottom: var(--spacing-small);
+}
+
+/* Compact header and remove extra spacing around project-info */
+header {
+  padding-bottom: 0;
+}
+.subtitle {
+  margin-bottom: 0;
+}
+header > .project-info {
+  margin: 0 auto;
+  padding: 0;
+}
+header > .project-info summary {
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Braun-style dropdowns */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--color-bg-secondary);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--border-radius);
+  color: var(--color-text);
+  padding: 0.75rem 1rem;
+  padding-right: 2.5rem;
+  transition: var(--transition-standard);
+  background-image: linear-gradient(45deg, transparent 50%, var(--color-accent) 50%),
+                    linear-gradient(135deg, var(--color-accent) 50%, transparent 50%);
+  background-position: calc(100% - 1rem) 40%, calc(100% - 0.75rem) 40%;
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+select:focus {
+  border-color: var(--color-accent-secondary);
+  outline: none;
+}
+select option {
+  color: var(--color-text);
+  background-color: white;
 }
