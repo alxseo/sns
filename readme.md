@@ -12,10 +12,7 @@ Acest proiect este un **MVP** pentru demonstrarea comparării performanțelor al
 2. [Funcționalități](#funcționalități)  
 3. [Structură proiect](#structură-proiect)  
 4. [Instalare & rulare locală](#instalare--rulare-locală)  
-5. [Utilizare](#utilizare)  
-6. [Dependențe](#dependețe)  
-7. [Roadmap & contribuții](#roadmap--contribuții)  
-8. [Licență](#licență)  
+5. [Utilizare](#utilizare)
 
 ---
 
